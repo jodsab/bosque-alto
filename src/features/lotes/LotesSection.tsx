@@ -1,7 +1,6 @@
 import content from "@/shared/constants/content.json";
 import { ImageKey } from "@/shared/constants/images.constants";
 import LoteCard from "./LoteCard";
-import Comparator from "./Comparator";
 
 const IMAGE_BY_ID: Record<string, ImageKey> = {
   "lote-200": "lote200",
