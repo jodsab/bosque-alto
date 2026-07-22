@@ -15,22 +15,22 @@ export default function Hero() {
           alt={hero.imageAlt}
           fill
           priority
-          className="object-cover opacity-40"
+          className="object-cover opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/80 to-brand-dark/40" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/55 to-brand-green/25" />
+        <div className="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-accent-gold/10 blur-3xl" />
+        <div className="pointer-events-none absolute -right-24 top-1/3 h-80 w-80 rounded-full bg-brand-green/15 blur-3xl" />
       </div>
 
       <div className="relative mx-auto grid max-w-6xl gap-10 px-5 pb-16 pt-14 lg:grid-cols-[1.1fr_0.9fr] lg:items-start lg:pb-24 lg:pt-20">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-accent-gold">
-            {hero.eyebrow}
-          </p>
-          <h1 className="mt-4 font-display text-4xl leading-tight text-text-on-dark sm:text-5xl lg:text-6xl">
+          <p className="eyebrow-on-dark">{hero.eyebrow}</p>
+          <h1 className="mt-4 font-display text-4xl leading-[1.05] text-text-on-dark sm:text-5xl lg:text-6xl">
             {hero.titlePrefix}
             <em className="text-accent-gold not-italic">{hero.titleEmphasis}</em>
             {hero.titleSuffix}
           </h1>
-          <p className="mt-5 max-w-xl text-base text-text-on-dark-muted sm:text-lg">
+          <p className="mt-5 max-w-xl whitespace-pre-line text-base text-text-on-dark-muted sm:text-lg">
             {hero.description}
           </p>
 
@@ -44,18 +44,10 @@ export default function Hero() {
           </ul>
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href={contact.whatsappHref}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-pill bg-brand-green px-6 py-3 text-sm font-semibold text-text-on-dark transition hover:bg-brand-green-hover"
-            >
+            <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary">
               {hero.ctaPrimary}
             </a>
-            <a
-              href="#lotes"
-              className="rounded-pill border border-white/25 px-6 py-3 text-sm font-semibold text-text-on-dark transition hover:bg-white/10"
-            >
+            <a href="#lotes" className="btn-outline-dark">
               {hero.ctaSecondary}
             </a>
           </div>
@@ -63,18 +55,6 @@ export default function Hero() {
           <p className="mt-4 text-xs text-text-on-dark-muted">
             {hero.phoneDisplay} · {hero.schedule}
           </p>
-
-          <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">
-            {hero.stats.map((stat) => (
-              <div key={stat.label}>
-                <dt className="font-display text-2xl text-accent-gold">
-                  {stat.value}
-                  {stat.unit && <span className="ml-1 text-sm text-text-on-dark-muted">{stat.unit}</span>}
-                </dt>
-                <dd className="mt-1 text-xs text-text-on-dark-muted">{stat.label}</dd>
-              </div>
-            ))}
-          </dl>
         </div>
 
         <div className="lg:sticky lg:top-24">
@@ -92,6 +72,20 @@ export default function Hero() {
             variant="onDark"
           />
         </div>
+      </div>
+
+      <div className="relative border-t border-white/10 bg-brand-dark-alt/90 backdrop-blur">
+        <dl className="mx-auto grid max-w-6xl grid-cols-2 gap-6 px-5 py-8 sm:grid-cols-3">
+          {hero.stats.map((stat) => (
+            <div key={stat.label}>
+              <dt className="font-display text-2xl text-accent-gold">
+                {stat.value}
+                {stat.unit && <span className="ml-1 text-sm text-text-on-dark-muted">{stat.unit}</span>}
+              </dt>
+              <dd className="mt-1 text-xs text-text-on-dark-muted">{stat.label}</dd>
+            </div>
+          ))}
+        </dl>
       </div>
     </section>
   );

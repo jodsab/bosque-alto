@@ -2,6 +2,7 @@ import SiteHeader from "@/features/nav/SiteHeader";
 import Hero from "@/features/hero/Hero";
 import LotesSection from "@/features/lotes/LotesSection";
 import AmenidadesSection from "@/features/lotes/AmenidadesSection";
+import SliderSection from "@/features/carrousel/SliderSection";
 import PlusvaliaSection from "@/features/plusvalia/PlusvaliaSection";
 import UbicacionSection from "@/features/ubicacion/UbicacionSection";
 import FacilidadesPagoSection from "@/features/facilidades-pago/FacilidadesPagoSection";
@@ -18,6 +19,7 @@ export default function HomePage() {
         <Hero />
         <LotesSection />
         <AmenidadesSection />
+        <SliderSection />
         <PlusvaliaSection />
         <UbicacionSection />
         <FacilidadesPagoSection />

@@ -52,7 +52,7 @@ export default function CreditSimulator() {
                 key={t}
                 type="button"
                 onClick={() => setTerm(t)}
-                className={`flex-1 rounded-md border px-2 py-2 text-sm font-medium transition ${
+                className={`flex-1 rounded-md border px-2 py-2 text-sm font-semibold transition ${
                   term === t
                     ? "border-brand-dark bg-brand-dark text-text-on-dark"
                     : "border-border-soft bg-white text-text-dark hover:bg-cream-bg"
@@ -85,12 +85,7 @@ export default function CreditSimulator() {
 
       <p className="mt-3 text-xs text-text-muted">{simulator.disclaimer}</p>
 
-      <a
-        href={contact.whatsappHref}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-4 inline-block rounded-pill bg-brand-green px-5 py-2.5 text-sm font-semibold text-text-on-dark transition hover:bg-brand-green-hover"
-      >
+      <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary mt-4 w-full px-5 py-2.5">
         {simulator.cta}
       </a>
     </div>

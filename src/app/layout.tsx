@@ -1,21 +1,14 @@
 import type { Metadata, Viewport } from "next";
-import { Fraunces, Manrope } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import content from "@/shared/constants/content.json";
 import { contact } from "@/shared/constants/theme.constants";
 import FloatingCta from "@/features/nav/FloatingCta";
 
-const display = Fraunces({
+const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-display",
-  weight: ["400", "500", "600"],
-  style: ["normal", "italic"],
-});
-
-const body = Manrope({
-  subsets: ["latin"],
-  variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans",
+  weight: ["400", "600", "800"],
 });
 
 export const metadata: Metadata = {
@@ -41,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="es-PE">
       <body
-        className={`${display.variable} ${body.variable} font-body bg-cream-bg text-text-dark antialiased`}
+        className={`${jakarta.variable} font-body bg-cream-bg text-text-dark antialiased`}
       >
         <a
           href="#lotes"

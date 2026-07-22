@@ -7,9 +7,7 @@ export default function FacilidadesPagoSection() {
   return (
     <section id="pagar" className="bg-brand-dark py-14 sm:py-20">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="text-sm font-semibold uppercase tracking-wide text-accent-gold">
-          {facilidadesPago.eyebrow}
-        </p>
+        <p className="eyebrow-on-dark">{facilidadesPago.eyebrow}</p>
         <h2 className="mt-2 font-display text-3xl text-text-on-dark sm:text-4xl">
           {facilidadesPago.title}
         </h2>

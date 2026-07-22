@@ -27,7 +27,7 @@ export default function SiteHeader() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-text-on-dark-muted transition hover:text-text-on-dark"
+              className="text-sm font-semibold text-text-on-dark-muted transition hover:text-text-on-dark"
             >
               {link.label}
             </a>
@@ -38,7 +38,7 @@ export default function SiteHeader() {
           href={contact.whatsappHref}
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden shrink-0 rounded-pill bg-brand-green px-4 py-2 text-sm font-semibold text-text-on-dark transition hover:bg-brand-green-hover sm:inline-block"
+          className="btn-primary hidden px-4 py-2 sm:inline-flex"
         >
           {content.nav.ctaWhatsapp}
         </a>

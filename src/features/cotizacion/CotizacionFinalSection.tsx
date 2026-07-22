@@ -9,9 +9,7 @@ export default function CotizacionFinalSection() {
     <section className="bg-brand-dark py-14 sm:py-20">
       <div className="mx-auto grid max-w-6xl gap-10 px-5 lg:grid-cols-[1fr_1fr]">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-wide text-accent-gold">
-            {cotizacionFinal.eyebrow}
-          </p>
+          <p className="eyebrow-on-dark">{cotizacionFinal.eyebrow}</p>
           <h2 className="mt-2 font-display text-3xl text-text-on-dark sm:text-4xl">
             {cotizacionFinal.title}
           </h2>
@@ -25,10 +23,7 @@ export default function CotizacionFinalSection() {
             ))}
           </ul>
 
-          <a
-            href={`tel:+${contact.whatsappNumber}`}
-            className="mt-6 inline-block rounded-pill border border-white/25 px-5 py-2.5 text-sm font-semibold text-text-on-dark transition hover:bg-white/10"
-          >
+          <a href={`tel:+${contact.whatsappNumber}`} className="btn-outline-dark mt-6 px-5 py-2.5">
             {cotizacionFinal.ctaCall}
           </a>
         </div>

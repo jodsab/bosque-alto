@@ -7,9 +7,78 @@ html {
 }
 
 body {
-  font-family: var(--font-body), system-ui, sans-serif;
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 400;
 }
 
-h1, h2, h3, .font-display {
-  font-family: var(--font-display), serif;
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*
+ * Capa de componentes: patrones reutilizables (botones CTA, eyebrows,
+ * cards) construidos únicamente con los colores/sombras/radios definidos
+ * en src/shared/constants/theme.constants.ts. Cambiar un color ahí se
+ * propaga automáticamente a cada botón/título que use estas clases.
+ */
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-brand-green;
+  }
+  .eyebrow::before {
+    content: "";
+    @apply h-px w-6 bg-brand-green;
+  }
+
+  .eyebrow-on-dark {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent-gold;
+  }
+  .eyebrow-on-dark::before {
+    content: "";
+    @apply h-px w-6 bg-accent-gold;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-pill px-6 py-3 text-sm font-semibold transition-all duration-200 ease-out focus-visible:outline-none focus-visible:ring-2;
+  }
+
+  .btn-primary {
+    @apply btn bg-brand-green text-text-on-dark shadow-cta-primary hover:-translate-y-0.5 hover:bg-brand-green-hover hover:shadow-lg focus-visible:ring-brand-green active:translate-y-0;
+  }
+
+  .btn-accent {
+    @apply btn bg-accent-gold text-brand-dark shadow-cta-accent hover:-translate-y-0.5 hover:brightness-95 focus-visible:ring-accent-gold active:translate-y-0;
+  }
+
+  .btn-outline-dark {
+    @apply btn border border-white/25 text-text-on-dark hover:-translate-y-0.5 hover:border-white/40 hover:bg-white/10 focus-visible:ring-white/40;
+  }
+
+  .btn-outline-light {
+    @apply btn border border-border-soft text-text-dark hover:-translate-y-0.5 hover:bg-white focus-visible:ring-brand-dark;
+  }
+
+  .btn-maps {
+    @apply btn bg-google-blue text-text-on-dark shadow-sm hover:-translate-y-0.5 hover:bg-google-blue-hover hover:shadow-lg focus-visible:ring-google-blue active:translate-y-0;
+  }
+
+  .card {
+    @apply rounded-lg bg-cream-card shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover;
+  }
 }

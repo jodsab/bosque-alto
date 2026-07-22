@@ -24,10 +24,12 @@ const config: Config = {
         "border-soft": colors.border,
         "warning-bg": colors.warningBg,
         "warning-text": colors.warningText,
+        "google-blue": colors.googleBlue,
+        "google-blue-hover": colors.googleBlueHover,
       },
       fontFamily: {
-        display: ["var(--font-display)"],
-        body: ["var(--font-body)"],
+        display: ["var(--font-sans)"],
+        body: ["var(--font-sans)"],
       },
       borderRadius: {
         sm: radii.sm,
@@ -39,6 +41,8 @@ const config: Config = {
         card: shadows.card,
         "card-hover": shadows.cardHover,
         "floating-cta": shadows.floatingCta,
+        "cta-primary": shadows.ctaPrimary,
+        "cta-accent": shadows.ctaAccent,
       },
     },
   },

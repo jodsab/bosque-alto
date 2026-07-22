@@ -37,7 +37,7 @@ export default function Comparator() {
               key={size}
               type="button"
               onClick={() => setSelected(size)}
-              className={`rounded-pill px-4 py-2 text-sm font-medium transition ${
+              className={`rounded-pill px-4 py-2 text-sm font-semibold transition ${
                 selected === size
                   ? "bg-brand-dark text-text-on-dark"
                   : "bg-cream-bg text-text-dark hover:bg-border-soft"
@@ -67,12 +67,7 @@ export default function Comparator() {
           </div>
         </dl>
 
-        <a
-          href={contact.whatsappHref}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="mt-6 inline-block rounded-pill bg-brand-green px-5 py-2.5 text-sm font-semibold text-text-on-dark transition hover:bg-brand-green-hover"
-        >
+        <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
           {comparator.ctaTemplate.replace("{size}", selected)}
         </a>
       </div>

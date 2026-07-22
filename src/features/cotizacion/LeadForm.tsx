@@ -52,31 +52,41 @@ export default function LeadForm({
   };
 
   const labelClass = isDark ? "text-text-on-dark" : "text-text-dark";
-  const inputClass = `w-full rounded-md border px-4 py-3 text-sm outline-none transition focus:ring-2 focus:ring-brand-green ${
+  const fieldBase =
+    "w-full rounded-md border px-4 py-3.5 text-sm outline-none transition focus:ring-2 focus:ring-brand-green";
+  const inputClass = `${fieldBase} ${
     isDark
       ? "border-white/15 bg-white/5 text-text-on-dark placeholder:text-text-on-dark-muted"
       : "border-border-soft bg-cream-card text-text-dark placeholder:text-text-muted"
   }`;
+  // Los <select> necesitan fondo sólido: en navegadores como Chrome/Edge el
+  // desplegable nativo ignora fondos casi transparentes (bg-white/5) y pinta
+  // blanco por defecto, dejando el texto claro ilegible.
+  const selectClass = `${fieldBase} appearance-none pr-9 ${
+    isDark
+      ? "border-white/15 bg-brand-dark text-text-on-dark [color-scheme:dark]"
+      : "border-border-soft bg-cream-card text-text-dark [color-scheme:light]"
+  }`;
 
   return (
     <div
-      className={`rounded-lg p-6 shadow-card sm:p-8 ${
+      className={`rounded-lg p-7 shadow-card sm:p-9 ${
         isDark ? "bg-brand-dark-alt" : "bg-cream-card"
       }`}
     >
       <h3 className={`font-display text-xl ${labelClass}`}>{title}</h3>
       {subtitle && (
-        <p className={`mt-1 text-sm ${isDark ? "text-text-on-dark-muted" : "text-text-muted"}`}>
+        <p className={`mt-2 text-sm ${isDark ? "text-text-on-dark-muted" : "text-text-muted"}`}>
           {subtitle}
         </p>
       )}
 
       {status === "success" ? (
-        <p className="mt-6 rounded-md bg-warning-bg px-4 py-3 text-sm text-warning-text">
+        <p className="mt-7 rounded-md bg-warning-bg px-5 py-4 text-sm text-warning-text">
           ¡Listo! Se abrió WhatsApp con tu mensaje pre-armado — solo confirma el envío.
         </p>
       ) : (
-        <form ref={formRef} onSubmit={onSubmit} className="mt-5 space-y-3" noValidate>
+        <form ref={formRef} onSubmit={onSubmit} className="mt-7 space-y-5" noValidate>
           <div>
             <label className="sr-only" htmlFor={`${source}-name`}>
               {nameLabel}
@@ -114,22 +124,32 @@ export default function LeadForm({
             <label className="sr-only" htmlFor={`${source}-lot`}>
               {lotLabel}
             </label>
-            <select
-              id={`${source}-lot`}
-              name="lot"
-              defaultValue=""
-              required
-              className={inputClass}
-            >
-              <option value="" disabled>
-                {lotPlaceholder}
-              </option>
-              {content.lotOptions.map((opt) => (
-                <option key={opt.value} value={opt.value}>
-                  {opt.label}
+            <div className="relative">
+              <select
+                id={`${source}-lot`}
+                name="lot"
+                defaultValue=""
+                required
+                className={selectClass}
+              >
+                <option value="" disabled>
+                  {lotPlaceholder}
                 </option>
-              ))}
-            </select>
+                {content.lotOptions.map((opt) => (
+                  <option key={opt.value} value={opt.value}>
+                    {opt.label}
+                  </option>
+                ))}
+              </select>
+              <span
+                aria-hidden
+                className={`pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-xs ${
+                  isDark ? "text-text-on-dark-muted" : "text-text-muted"
+                }`}
+              >
+                ▾
+              </span>
+            </div>
             {errors.lot && <p className="mt-1 text-xs text-red-600">{errors.lot}</p>}
           </div>
 
@@ -149,7 +169,7 @@ export default function LeadForm({
           )}
 
           <label
-            className={`flex items-start gap-2 text-xs ${
+            className={`flex items-start gap-2.5 text-xs leading-relaxed ${
               isDark ? "text-text-on-dark-muted" : "text-text-muted"
             }`}
           >
@@ -162,7 +182,7 @@ export default function LeadForm({
           <button
             type="submit"
             disabled={status === "submitting"}
-            className="w-full rounded-pill bg-brand-green px-6 py-3 text-sm font-semibold text-text-on-dark transition hover:bg-brand-green-hover disabled:opacity-60"
+            className="btn-primary w-full disabled:pointer-events-none disabled:opacity-60"
           >
             {status === "submitting" ? "Enviando…" : submitLabel}
           </button>

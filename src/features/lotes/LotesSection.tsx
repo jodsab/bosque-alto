@@ -4,11 +4,10 @@ import LoteCard from "./LoteCard";
 import Comparator from "./Comparator";
 
 const IMAGE_BY_ID: Record<string, ImageKey> = {
-  "lote-180": "lote180",
   "lote-200": "lote200",
   "lote-250": "lote250",
+  "lote-500": "lote500",
   "lote-1000": "lote1000",
-  "lote-100": "lote100",
 };
 
 export default function LotesSection() {
@@ -17,19 +16,19 @@ export default function LotesSection() {
   return (
     <section id="lotes" className="bg-cream-bg py-14 sm:py-20">
       <div className="mx-auto max-w-6xl px-5">
-        <p className="text-sm font-semibold uppercase tracking-wide text-brand-green">{lotes.eyebrow}</p>
+        <p className="eyebrow">{lotes.eyebrow}</p>
         <h2 className="mt-2 max-w-2xl font-display text-3xl text-brand-dark sm:text-4xl">{lotes.title}</h2>
         <p className="mt-3 max-w-2xl text-sm text-text-muted sm:text-base">{lotes.description}</p>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid gap-16 sm:grid-cols-2 lg:grid-cols-2">
           {lotes.items.map((item) => (
             <LoteCard key={item.id} item={item} imageKey={IMAGE_BY_ID[item.id]} />
           ))}
         </div>
 
-        <div className="mt-14">
+        {/*         <div className="mt-14">
           <Comparator />
-        </div>
+        </div> */}
       </div>
     </section>
   );

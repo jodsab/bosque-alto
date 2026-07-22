@@ -14,33 +14,68 @@
   "nav": {
     "skipLink": "Saltar al listado de lotes",
     "links": [
-      { "label": "Lotes y precios", "href": "#lotes" },
-      { "label": "Por qué ahora", "href": "#plusvalia" },
-      { "label": "Ubicación", "href": "#ubicacion" },
-      { "label": "Cómo comprar", "href": "#pagar" },
-      { "label": "Preguntas", "href": "#preguntas" }
+      {
+        "label": "Lotes y precios",
+        "href": "#lotes"
+      },
+      {
+        "label": "Por qué ahora",
+        "href": "#plusvalia"
+      },
+      {
+        "label": "Ubicación",
+        "href": "#ubicacion"
+      },
+      {
+        "label": "Cómo comprar",
+        "href": "#pagar"
+      },
+      {
+        "label": "Preguntas",
+        "href": "#preguntas"
+      }
     ],
     "priceFrom": "Lotes desde S/ 12,500",
     "ctaWhatsapp": "Escribir por WhatsApp",
     "mobileSteps": [
-      { "number": "01", "label": "Lotes y precios", "href": "#lotes" },
-      { "number": "02", "label": "Por qué ahora", "href": "#plusvalia" },
-      { "number": "03", "label": "Ubicación", "href": "#ubicacion" },
-      { "number": "04", "label": "Cómo comprar", "href": "#pagar" },
-      { "number": "05", "label": "Preguntas", "href": "#preguntas" }
+      {
+        "number": "01",
+        "label": "Lotes y precios",
+        "href": "#lotes"
+      },
+      {
+        "number": "02",
+        "label": "Por qué ahora",
+        "href": "#plusvalia"
+      },
+      {
+        "number": "03",
+        "label": "Ubicación",
+        "href": "#ubicacion"
+      },
+      {
+        "number": "04",
+        "label": "Cómo comprar",
+        "href": "#pagar"
+      },
+      {
+        "number": "05",
+        "label": "Preguntas",
+        "href": "#preguntas"
+      }
     ]
   },
   "hero": {
-    "eyebrow": "Condominio Campestre Bosque Alto — Huacho",
+    "eyebrow": "Finca Don Pedro - Huacho",
     "titlePrefix": "Tu lote ",
     "titleEmphasis": "de campo",
-    "titleSuffix": " en Huacho desde S/12,500",
+    "titleSuffix": " en Huacho desde S/10,000",
     "priceLine": "Lotes de campo en Huacho desde S/ 12,500",
-    "description": "Se entrega con título de propiedad independizado e inscrito en Sunarp. Crédito directo, a sola firma: sin banco.",
+    "description": "Compramos terrenos eriazos al estado para proyectos agropecuarios a s/2 el m2.\n\n Recibe tu lote con título de propiedad e inscrito en Sunarp. Crédito directo, a sola firma, sin banco.",
     "bullets": [
-      "Agua, luz y desagüe instalados",
-      "Más de 5,000 árboles frutales",
-      "A 20 min de la ciudad de Huacho"
+      "Te obsequiamos árboles frutales de palta y naranja",
+      "Servicios básicos ecoamigables",
+      "Seguridad, privacidad y tranquilidad"
     ],
     "ctaPrimary": "Pedir precios por WhatsApp",
     "ctaSecondary": "Ver los 5 lotes y sus precios",
@@ -62,10 +97,21 @@
       "disclaimer": "Sin compromiso. No compartimos tus datos con terceros."
     },
     "stats": [
-      { "value": "Desde S/ 69", "unit": "el m²", "label": "Su tarifa más baja, en el lote de 180 m²" },
-      { "value": "+5,000", "unit": "árboles", "label": "Frutales en producción para los propietarios" },
-      { "value": "12", "unit": "amenidades", "label": "Piscina, baños termales, club house y nueve más" },
-      { "value": "Sunarp", "unit": "", "label": "Terrenos inscritos y título independizado" }
+      {
+        "value": "Desde S/ 25",
+        "unit": "el m²",
+        "label": "Tarifa más baja en lotes de 1000 m²"
+      },
+      {
+        "value": "+5,000",
+        "unit": "árboles",
+        "label": "Frutales en producción para beneficio de los propietarios"
+      },
+      {
+        "value": "12",
+        "unit": "amenidades",
+        "label": "Piscina, Salón de eventos, canchas deportivas y 9 más"
+      }
     ]
   },
   "lotes": {
@@ -76,28 +122,28 @@
     "priceCaption": "Precio al contado",
     "items": [
       {
-        "id": "lote-180",
-        "size": "180 m²",
-        "price": "S/12,500",
+        "id": "lote-200",
+        "size": "200 m²",
+        "price": "S/10,000",
         "dimensions": "13.4 × 13.4 m",
         "pricePerM2": "S/ 69.44 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
-        "badge": "Hasta 30% de descuento al contado",
         "imageAlt": "Alameda arbolada dentro del condominio Bosque Alto"
-      },
-      {
-        "id": "lote-200",
-        "size": "200 m²",
-        "price": "S/14,999",
-        "dimensions": "14.1 × 14.1 m",
-        "pricePerM2": "S/ 75.00 por m²",
-        "cta": "Consultar el descuento",
-        "imageAlt": "Zona de áreas verdes y camino peatonal en Bosque Alto"
       },
       {
         "id": "lote-250",
         "size": "250 m²",
-        "price": "S/21,500",
+        "price": "S/10,000",
+        "dimensions": "14.1 × 14.1 m",
+        "pricePerM2": "S/ 75.00 por m²",
+        "cta": "Consultar el descuento",
+        "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
+        "imageAlt": "Zona de áreas verdes y camino peatonal en Bosque Alto"
+      },
+      {
+        "id": "lote-500",
+        "size": "500 m²",
+        "price": "S/15,000",
         "dimensions": "15.8 × 15.8 m",
         "pricePerM2": "S/ 86.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
@@ -106,36 +152,25 @@
       {
         "id": "lote-1000",
         "size": "1,000 m²",
-        "price": "S/75,000",
+        "price": "S/25,000",
         "dimensions": "31.6 × 31.6 m",
         "pricePerM2": "S/ 75.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
+        "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
         "imageAlt": "Vista aérea del condominio Bosque Alto entre el huerto y las dunas"
-      },
-      {
-        "id": "lote-100",
-        "size": "100 m²",
-        "price": "S/7,500",
-        "note": "No figura en su publicidad vigente. [CONFIRMAR CON CLIENTE]",
-        "dimensions": "10.0 × 10.0 m",
-        "pricePerM2": "S/ 75.00 por m²",
-        "cta": "Confirmar si sigue disponible",
-        "imageAlt": "Calle interior del condominio Bosque Alto con casas de campo"
-      },
-      {
-        "id": "lote-500",
-        "size": "500 m²",
-        "note": "La publicidad de la inmobiliaria menciona lotes de 500 m², pero no publica su precio. [CONFIRMAR CON CLIENTE]",
-        "dimensions": "22.4 × 22.4 m",
-        "pricePerM2": "Precio [CONFIRMAR]",
-        "cta": "Preguntar por este lote"
       }
     ],
     "comparator": {
       "eyebrow": "Compara a escala",
       "title": "¿Cuánto es realmente un lote?",
       "description": "Los metrajes dibujados a escala real, uno dentro del otro. Elige uno y mira cuánto terreno es de verdad — y cuánto te cuesta cada metro.",
-      "sizes": ["100 m²", "180 m²", "200 m²", "250 m²", "1,000 m²"],
+      "sizes": [
+        "100 m²",
+        "180 m²",
+        "200 m²",
+        "250 m²",
+        "1,000 m²"
+      ],
       "priceLabel": "Precio al contado",
       "priceM2Label": "Precio por m²",
       "dimensionsLabel": "Medidas",
@@ -149,12 +184,24 @@
     }
   },
   "amenidades": {
-    "title": "Lo que tendrás dentro del condominio",
+    "title": "Lo que tendrás dentro de la finca",
     "featured": [
-      { "title": "Baños termales", "detail": "Nada común en un condominio campestre" },
-      { "title": "Piscina", "detail": "Para adultos y para niños" },
-      { "title": "Club house", "detail": "Y salón de recepciones" },
-      { "title": "Campo de fútbol", "detail": "Y áreas deportivas" }
+      {
+        "title": "Baños termales",
+        "detail": "Nada común en un condominio campestre"
+      },
+      {
+        "title": "Club house y Salón de eventos",
+        "detail": "Para adultos y para niños"
+      },
+      {
+        "title": "Club house",
+        "detail": "Y salón de recepciones"
+      },
+      {
+        "title": "Campo multideportivo",
+        "detail": "Futbol, básket, vóley y tenis"
+      }
     ],
     "extraTitle": "Y además:",
     "extra": [
@@ -169,25 +216,118 @@
     ],
     "footnote": "Doce amenidades comprometidas por la inmobiliaria en el proyecto.",
     "gallery": [
-      { "imageAlt": "Piscina del condominio Bosque Alto", "caption": "Render" },
-      { "imageAlt": "Zona de juegos para niños", "caption": "Render" },
-      { "imageAlt": "Zona de parrillas y quinchos", "caption": "Render" },
-      { "imageAlt": "Pórtico de ingreso a Bosque Alto", "caption": "Render" },
-      { "imageAlt": "Fresas cultivadas en el huerto de Bosque Alto", "caption": "Fresas" },
-      { "imageAlt": "Mandarinas en un árbol del huerto de Bosque Alto", "caption": "Mandarinas" },
-      { "imageAlt": "Papayas en el huerto de Bosque Alto", "caption": "Papayas" }
+      {
+        "imageAlt": "Piscina del condominio Bosque Alto",
+        "caption": "Render"
+      },
+      {
+        "imageAlt": "Zona de juegos para niños",
+        "caption": "Render"
+      },
+      {
+        "imageAlt": "Zona de parrillas y quinchos",
+        "caption": "Render"
+      },
+      {
+        "imageAlt": "Pórtico de ingreso a Bosque Alto",
+        "caption": "Render"
+      },
+      {
+        "imageAlt": "Fresas cultivadas en el huerto de Bosque Alto",
+        "caption": "Fresas"
+      },
+      {
+        "imageAlt": "Mandarinas en un árbol del huerto de Bosque Alto",
+        "caption": "Mandarinas"
+      },
+      {
+        "imageAlt": "Papayas en el huerto de Bosque Alto",
+        "caption": "Papayas"
+      }
     ],
     "orchard": {
       "eyebrow": "Fotos reales del terreno",
-      "title": "Más de 5,000 árboles frutales para los propietarios",
-      "description": "Fresas, mandarinas y papayas creciendo hoy en Bosque Alto. No es un render: es lo que hay sembrado mientras lees esto."
+      "title": "Plantaremos más de 5000 árboles frutales para los propietarios.",
+      "description": "Olvídate de costos de mantenimiento altísimos, con nuestra propia producción de frutales como palta, naranja, limón, sandía, melón, yuca y camote no solo embellecemos nuestra finca, sino también, generamos ingresos."
     }
+  },
+  "carrousel": {
+    "eyebrow": "Así va Bosque Alto",
+    "title": "El proyecto en fotos, tal como está hoy",
+    "description": "Un recorrido visual por el terreno, los accesos y el avance real del condominio.",
+    "items": [
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 1"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 2"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 3"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 4"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 5"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 6"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 7"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 8"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 9"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 10"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 11"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 12"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 13"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 14"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 15"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 16"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 17"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 18"
+      },
+      {
+        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 19"
+      }
+    ]
   },
   "plusvalia": {
     "eyebrow": "Por qué ahora",
     "title": "Huacho está dentro de la zona de influencia directa del megapuerto de Chancay",
     "description": "No es una promesa de rentabilidad: son hechos públicos y verificables. Cada uno con su fuente.",
     "facts": [
+      {
+        "value": "Ley 32449",
+        "unit": "",
+        "title": "Ya existe el marco de Zonas Económicas Especiales",
+        "detail": "El Congreso aprobó la Ley 32449, que crea el marco de las Zonas Económicas Especiales Privadas, y el Mincetur publicó su reglamento en abril de 2026. Hay una ZEEP propuesta en el propio distrito de Huacho.",
+        "sourceLabel": "Congreso de la República",
+        "sourceUrl": "https://comunicaciones.congreso.gob.pe/noticias/pleno-aprobo-marco-normativo-para-creacion-y-desarrollo-de-zonas-economicas-especiales-privadas/"
+      },
       {
         "value": "5",
         "unit": "zonas",
@@ -200,8 +340,7 @@
         "value": "70",
         "unit": "km",
         "title": "A una hora del puerto, por la Panamericana Norte",
-        "detail": "De Chancay a Huacho hay unos 70 km por la carretera PE-1N, alrededor de 55 minutos en auto. Cerca del corredor, no encima de él.",
-        "note": "Distancia entre ciudades. La distancia exacta desde el lote: [CONFIRMAR CON CLIENTE]"
+        "detail": "De Chancay a Huacho hay unos 70 km por la carretera PE-1N, alrededor de 55 minutos en auto. Cerca del corredor, no encima de él."
       },
       {
         "value": "US$ 1,300",
@@ -212,42 +351,54 @@
         "sourceUrl": "https://es.wikipedia.org/wiki/Puerto_de_Chancay"
       },
       {
-        "value": "Ley 32449",
+        "value": "10x",
         "unit": "",
-        "title": "Ya existe el marco de Zonas Económicas Especiales",
-        "detail": "El Congreso aprobó la Ley 32449, que crea el marco de las Zonas Económicas Especiales Privadas, y el Mincetur publicó su reglamento en abril de 2026. Hay una ZEEP propuesta en el propio distrito de Huacho.",
+        "title": "Potencial de valorización",
+        "detail": "Los proyectos desarrollados sobre terrenos adquiridos al Estado generan una valorización importante conforme avanzan las etapas de saneamiento, infraestructura y formalización.",
         "sourceLabel": "Congreso de la República",
-        "sourceUrl": "https://comunicaciones.congreso.gob.pe/noticias/pleno-aprobo-marco-normativo-para-creacion-y-desarrollo-de-zonas-economicas-especiales-privadas/"
+        "sourceUrl": "Distancia entre ciudades. La distancia exacta desde el lote: [CONFIRMAR CON CLIENTE]"
       }
     ],
     "caveat": {
-      "title": "Y lo que todavía no está resuelto",
-      "detail": "La Zona Económica Especial de Chancay no está promulgada: la disposición que creaba ocho ZEEP —Chancay incluida— fue votada aparte y rechazada. Y de los 21 proyectos de inversión previstos para las zonas de influencia, solo se priorizarán 6 hasta 2027 por falta de financiamiento.",
-      "warning": "Un terreno se compra por lo que vale hoy, no por lo que prometen que valdrá. La plusvalía futura no está garantizada por nadie, y quien te diga lo contrario con un porcentaje exacto se lo está inventando.",
-      "sourceLabel": "La República, abril 2026",
-      "sourceUrl": "https://larepublica.pe/economia/2026/04/27/megapuerto-de-chancay-priorizaran-solo-seis-de-los-21-proyectos-de-inversion-hasta-2027-por-falta-de-financiamiento-hnews-712314"
+      "title": "Compra antes de la titulación",
+      "highlight": "Multiplica el valor de tu inversión",
+      "description": "La mayor valorización ocurre antes del saneamiento legal. En Finca Don Pedro adquirimos terrenos eriazos del Estado para desarrollar proyectos agrícolas y campestres. Cuando el Estado culmina el procedimiento de venta y el predio obtiene su título definitivo, el valor comercial del terreno suele incrementarse significativamente, porque pasa de ser un terreno en posesión a un inmueble formalizado. Ese es el mismo principio bajo el que trabajan muchos grandes desarrolladores inmobiliarios.",
+      "referencesLabel": "Normativa que respalda el proceso",
+      "references": [
+        {
+          "label": "D.S. 026-2003-AG",
+          "detail": "Venta directa de terrenos eriazos del Estado para fines agropecuarios.",
+          "url": "https://faolex.fao.org/docs/pdf/per64123.pdf"
+        },
+        {
+          "label": "R.M. 243-2016-MIDAGRI",
+          "detail": "Lineamientos técnicos para el procedimiento de adjudicación de terrenos eriazos.",
+          "url": "https://www.midagri.gob.pe/portal/download/pdf/marcolegal/normaslegales/resolucionesministeriales/2016/junio/rm243-2016-minagri.pdf"
+        }
+      ]
     }
   },
   "ubicacion": {
     "eyebrow": "Ubicación",
     "title": "Dónde está tu terreno",
-    "description": "En Huacho, provincia de Huaura, al norte de Lima.",
+    "description": "Al lado de Huacho, en el distrito de Santa Maria, provincia de Huaura y departamento de Lima",
     "project": {
       "title": "El proyecto — Huacho",
       "imageAlt": "Mapa de Huacho, en la provincia de Huaura, junto a la Panamericana Norte",
       "mapCta": "Abrir mapa interactivo",
+      "mapUrl": "https://www.google.com/maps/place/Laguna+La+Encantada/@-11.134092,-77.59261,14z/data=!4m15!1m8!3m7!1s0x9106df11d879eca9:0xeddc2693a15ed330!2zSHVhY2hvLCBQZXLDug!3b1!8m2!3d-11.1227218!4d-77.6105679!16zL20vMDJzOWdf!3m5!1s0x9106e12e8592141f:0x52958753ecd41f6f!8m2!3d-11.134383!4d-77.557147!16s%2Fg%2F11h38smy57?hl=es-ES&entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D",
       "bullets": [
         "5 min de la Laguna Encantada",
-        "20 min de la ciudad de Huacho",
-        "Ubicación exacta del lote: [CONFIRMAR CON CLIENTE]"
+        "20 min de la ciudad de Huacho"
       ]
     },
     "salesOffice": {
       "title": "Sala de ventas — Lince, Lima",
       "imageAlt": "Mapa de la sala de ventas en Av. Arequipa 1860, Lince, Lima",
       "mapCta": "Abrir mapa interactivo",
+      "mapUrl": "https://www.google.com/maps/place/Proyecta+Innova+Trasciende+Sac/@-12.0831252,-77.0355016,19z/data=!3m1!4b1!4m6!3m5!1s0x9105c7403a8cd151:0x9811fa9f1a7dab1b!8m2!3d-12.0831265!4d-77.0348579!16s%2Fg%2F11t8g04fjh?hl=es-ES&entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D",
       "bullets": [
-        "Av. Arequipa 1860, piso 2, Of. 207 — Lince",
+        "Av. Arequipa 1860, piso 19, Of. 1905 — Lince",
         "Lunes a sábado, 10:00 a. m. – 7:00 p. m."
       ]
     },
@@ -266,8 +417,16 @@
       "description": "Recorrido 360° del proyecto Bosque Alto: la distribución de los lotes, las calles interiores y las áreas comunes. Míralo ahora y luego agenda tu visita para ver el terreno.",
       "disclaimer": "Es un recorrido sobre el render del proyecto, no una filmación del terreno.",
       "items": [
-        { "imageAlt": "Calle interior de la lotización de Bosque Alto, con árboles frutales a los lados", "caption": "Render del proyecto", "cta": "Ver en 360°" },
-        { "imageAlt": "Fotograma del recorrido 3D del proyecto Bosque Alto", "caption": "Render del proyecto", "cta": "Ver el recorrido 3D" }
+        {
+          "imageAlt": "Calle interior de la lotización de Bosque Alto, con árboles frutales a los lados",
+          "caption": "Render del proyecto",
+          "cta": "Ver en 360°"
+        },
+        {
+          "imageAlt": "Fotograma del recorrido 3D del proyecto Bosque Alto",
+          "caption": "Render del proyecto",
+          "cta": "Ver el recorrido 3D"
+        }
       ],
       "footnote": "Ninguno de los dos se descarga hasta que pulsas."
     }
@@ -276,25 +435,62 @@
     "eyebrow": "Facilidades de pago",
     "title": "Comprar tu lote toma 4 pasos",
     "steps": [
-      { "number": 1, "title": "Escribe por WhatsApp", "detail": "Dinos qué metraje te interesa. Un asesor te manda precios y disponibilidad al día." },
-      { "number": 2, "title": "Visita el terreno", "detail": "Conoce Bosque Alto, el huerto y las áreas comunes antes de decidir nada." },
-      { "number": 3, "title": "Separa tu lote", "detail": "Al contado, o con crédito directo a sola firma: financia la inmobiliaria, no un banco." },
-      { "number": 4, "title": "Recibe tu título", "detail": "Título de propiedad independizado, con el terreno inscrito en Sunarp." }
+      {
+        "number": 1,
+        "title": "Escribe por WhatsApp",
+        "detail": "Dinos qué metraje te interesa. Un asesor te manda precios y disponibilidad al día."
+      },
+      {
+        "number": 2,
+        "title": "Visita el terreno",
+        "detail": "Conoce Bosque Alto, el huerto y las áreas comunes antes de decidir nada."
+      },
+      {
+        "number": 3,
+        "title": "Separa tu lote",
+        "detail": "Al contado, o con crédito directo a sola firma: financia la inmobiliaria, no un banco."
+      },
+      {
+        "number": 4,
+        "title": "Recibe tu título",
+        "detail": "Título de propiedad independizado, con el terreno inscrito en Sunarp."
+      }
     ],
     "simulator": {
       "title": "Simula tu crédito directo",
       "lotLabel": "Lote",
       "lotOptions": [
-        { "label": "100 m² — S/ 7,500", "price": 7500 },
-        { "label": "180 m² — S/ 12,500", "price": 12500 },
-        { "label": "200 m² — S/ 14,999", "price": 14999, "default": true },
-        { "label": "250 m² — S/ 21,500", "price": 21500 },
-        { "label": "1,000 m² — S/ 75,000", "price": 75000 }
+        {
+          "label": "100 m² — S/ 7,500",
+          "price": 7500
+        },
+        {
+          "label": "180 m² — S/ 12,500",
+          "price": 12500
+        },
+        {
+          "label": "200 m² — S/ 14,999",
+          "price": 14999,
+          "default": true
+        },
+        {
+          "label": "250 m² — S/ 21,500",
+          "price": 21500
+        },
+        {
+          "label": "1,000 m² — S/ 75,000",
+          "price": 75000
+        }
       ],
       "downPaymentLabel": "Cuota inicial",
       "downPaymentPercent": 30,
       "termLabel": "Plazo a simular",
-      "termOptions": [12, 24, 36, 48],
+      "termOptions": [
+        12,
+        24,
+        36,
+        48
+      ],
       "monthlyLabel": "Cuota mensual estimada",
       "duringLabel": "durante {months} meses ·",
       "balanceLabel": "saldo a financiar {balance}",
@@ -318,11 +514,21 @@
       "title": "Entregas de título en la oficina de Lince",
       "hashtag": "#FamiliaProyectaInnova",
       "gallery": [
-        { "imageAlt": "Entrega de título de propiedad a una propietaria de Bosque Alto" },
-        { "imageAlt": "Nuevos propietarios recibiendo su título de propiedad" },
-        { "imageAlt": "Familia recibiendo su título de propiedad en la sala de ventas" },
-        { "imageAlt": "Propietarios con su título de propiedad de Bosque Alto" },
-        { "imageAlt": "Clientes reunidos bajo sombrillas en el terreno de Bosque Alto" }
+        {
+          "imageAlt": "Entrega de título de propiedad a una propietaria de Bosque Alto"
+        },
+        {
+          "imageAlt": "Nuevos propietarios recibiendo su título de propiedad"
+        },
+        {
+          "imageAlt": "Familia recibiendo su título de propiedad en la sala de ventas"
+        },
+        {
+          "imageAlt": "Propietarios con su título de propiedad de Bosque Alto"
+        },
+        {
+          "imageAlt": "Clientes reunidos bajo sombrillas en el terreno de Bosque Alto"
+        }
       ]
     },
     "referral": {
@@ -387,27 +593,59 @@
     }
   },
   "lotOptions": [
-    { "label": "100 m² — S/ 7,500", "value": "100m2" },
-    { "label": "180 m² — S/ 12,500", "value": "180m2" },
-    { "label": "200 m² — S/ 14,999", "value": "200m2" },
-    { "label": "250 m² — S/ 21,500", "value": "250m2" },
-    { "label": "1,000 m² — S/ 75,000", "value": "1000m2" },
-    { "label": "Aún no lo sé", "value": "no_se" }
+    {
+      "label": "250 m² — S/ 10,000",
+      "value": "250m2"
+    },
+    {
+      "label": "500 m² — S/ 15,000",
+      "value": "500m2"
+    },
+    {
+      "label": "1,000 m² — S/ 25,000",
+      "value": "1000m2"
+    },
+    {
+      "label": "Aún no lo sé",
+      "value": "no_se"
+    }
   ],
   "footer": {
     "logoAlt": "Proyecta Innova TR Inmobiliaria",
     "legalLine1": "Proyecta Innova Trasciende S.A.C. — RUC 20609903881",
     "legalLine2": "Av. Arequipa 1860, piso 2, Oficina 207 — Lince, Lima, Perú",
     "socials": [
-      { "network": "facebook", "url": "https://www.facebook.com/proyectainnovatrinmobiliaria" },
-      { "network": "instagram", "url": "https://www.instagram.com/proyectainnova/" },
-      { "network": "tiktok", "url": "https://www.tiktok.com/@proyecta.innova.t" },
-      { "network": "youtube", "url": "https://www.youtube.com/@ProyectaInnovaTrInmobiliaria" }
+      {
+        "network": "facebook",
+        "url": "https://www.facebook.com/proyectainnovatrinmobiliaria"
+      },
+      {
+        "network": "instagram",
+        "url": "https://www.instagram.com/proyectainnova/"
+      },
+      {
+        "network": "tiktok",
+        "url": "https://www.tiktok.com/@proyecta.innova.t"
+      },
+      {
+        "network": "youtube",
+        "url": "https://www.youtube.com/@ProyectaInnovaTrInmobiliaria"
+      }
     ],
-    "complaintsBook": { "label": "Libro de Reclamaciones", "detail": "Conforme a la Ley 29571", "href": "/libro-de-reclamaciones" },
+    "complaintsBook": {
+      "label": "Libro de Reclamaciones",
+      "detail": "Conforme a la Ley 29571",
+      "href": "/libro-de-reclamaciones"
+    },
     "links": [
-      { "label": "Términos y Condiciones", "href": "/terminos" },
-      { "label": "Política de Privacidad", "href": "/privacidad" }
+      {
+        "label": "Términos y Condiciones",
+        "href": "/terminos"
+      },
+      {
+        "label": "Política de Privacidad",
+        "href": "/privacidad"
+      }
     ],
     "disclaimer": "Los renders y las imágenes del proyecto son referenciales. Precios al contado publicados por la inmobiliaria, sujetos a confirmación de disponibilidad. La revalorización futura del terreno no está garantizada."
   },

@@ -41,26 +41,33 @@ export const colors = {
   success: "#2F6B3C",
   warningBg: "#FCEFD8",
   warningText: "#8A5A16",
+  // Azul de Google — botones "Abrir mapa" (referencia visual a Google Maps)
+  googleBlue: "#4285F4",
+  googleBlueHover: "#3367D6",
 } as const;
 
 export const fonts = {
-  // Fuente de titulares — con carácter, serif suave (evoca "campo/tierra")
-  display: "var(--font-display)",
-  // Fuente de texto — sans neutra, alta legibilidad
-  body: "var(--font-body)",
+  // Familia única (Plus Jakarta Sans, pesos 400/600/800) — display usa peso
+  // extrabold vía globals.css, body usa regular/semibold.
+  display: "var(--font-sans)",
+  body: "var(--font-sans)",
 } as const;
 
 export const radii = {
-  sm: "6px",
-  md: "12px",
-  lg: "20px",
+  sm: "8px",
+  md: "14px",
+  lg: "24px",
   pill: "999px",
 } as const;
 
 export const shadows = {
-  card: "0 4px 24px rgba(15, 26, 18, 0.08)",
-  cardHover: "0 10px 32px rgba(15, 26, 18, 0.14)",
-  floatingCta: "0 8px 20px rgba(47, 107, 60, 0.35)",
+  card: "0 2px 8px rgba(15, 26, 18, 0.06), 0 16px 32px -8px rgba(15, 26, 18, 0.12)",
+  cardHover: "0 8px 16px rgba(15, 26, 18, 0.08), 0 24px 48px -8px rgba(15, 26, 18, 0.18)",
+  floatingCta: "0 -4px 20px rgba(15, 26, 18, 0.18)",
+  // Sombras de color para botones CTA — deben re-calcularse manualmente si
+  // brandGreen/accentGold cambian (son rgba fijos, no derivados del hex).
+  ctaPrimary: "0 10px 24px -6px rgba(47, 107, 60, 0.5)",
+  ctaAccent: "0 10px 24px -6px rgba(201, 162, 75, 0.5)",
 } as const;
 
 export const spacing = {
