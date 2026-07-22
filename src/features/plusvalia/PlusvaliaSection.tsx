@@ -1,5 +1,15 @@
 import content from "@/shared/constants/content.json";
 
+interface PlusvaliaFact {
+  value: string;
+  unit: string;
+  title: string;
+  detail: string;
+  sourceLabel?: string;
+  sourceUrl?: string;
+  note?: string;
+}
+
 function DocumentIcon({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.75} className={className}>
@@ -29,7 +39,7 @@ export default function PlusvaliaSection() {
         <p className="mt-3 max-w-2xl text-sm text-text-muted sm:text-base">{plusvalia.description}</p>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
-          {plusvalia.facts.map((fact) => (
+          {(plusvalia.facts as PlusvaliaFact[]).map((fact) => (
             <div key={fact.title} className="card p-6">
               <p className="font-display text-2xl text-accent-gold">
                 {fact.value}
@@ -37,10 +47,8 @@ export default function PlusvaliaSection() {
               </p>
               <h3 className="mt-2 font-semibold text-text-dark">{fact.title}</h3>
               <p className="mt-2 text-sm text-text-muted">{fact.detail}</p>
-              {"note" in fact && fact.note && (
-                <p className="mt-2 text-xs text-warning-text">{fact.note}</p>
-              )}
-              {"sourceUrl" in fact && fact.sourceUrl && (
+              {fact.note && <p className="mt-2 text-xs text-warning-text">{fact.note}</p>}
+              {fact.sourceUrl && (
                 <a
                   href={fact.sourceUrl}
                   target="_blank"
