@@ -92,6 +92,8 @@ export const contact = {
   whatsappHref: "https://wa.me/51922199903",
   // Línea directa del gerente de ventas, para el CTA "Llamar ahora"
   salesManagerPhone: "51982810387",
+  // Destinatario fijo del Libro de Reclamaciones (empresa + responsable, mismo correo)
+  complaintsRecipientEmail: "radsance.pe@gmail.com",
 } as const;
 
 export const theme = { colors, fonts, radii, shadows, spacing, breakpoints, contact };

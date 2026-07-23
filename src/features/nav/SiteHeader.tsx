@@ -13,9 +13,9 @@ export default function SiteHeader() {
           <ImageWithFallback
             src={images.isotipo}
             alt=""
-            width={36}
-            height={36}
-            className="h-9 w-9 rounded-full"
+            width={100}
+            height={100}
+            className="h-12 w-12 rounded-full"
           />
           <span className="font-display text-lg text-text-on-dark">
             {content.brand.name} <strong className="text-accent-gold">{content.brand.suffix}</strong>

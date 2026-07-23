@@ -596,7 +596,7 @@
       },
       {
         "question": "¿Puedo visitar el terreno antes de comprar?",
-        "answer": "Sí, y conviene hacerlo. Puedes agendar la visita por WhatsApp o pasar por la sala de ventas en Av. Arequipa 1860, piso 2, oficina 207, Lince, de lunes a sábado de 10:00 a. m. a 7:00 p. m."
+        "answer": "Sí, y conviene hacerlo. Puedes agendar la visita por WhatsApp o pasar por la sala de ventas en Av. Arequipa 1860, piso 19, oficina 1905, Lince, de lunes a sábado de 10:00 a. m. a 7:00 p. m."
       },
       {
         "question": "¿Qué servicios tiene el lote?",
@@ -614,15 +614,9 @@
     "description": "Déjanos tus datos y un asesor te escribe por WhatsApp con precios, disponibilidad y las condiciones del crédito directo.",
     "contactList": [
       "+51 922 199 903 — WhatsApp de ventas",
-      "Av. Arequipa 1860, piso 2, Of. 207 — Lince, Lima",
+      "Av. Arequipa 1860, piso 19, Of. 1905 — Lince",
       "Lunes a sábado, 10:00 a. m. – 7:00 p. m."
     ],
-    "ctaCall": "Llamar ahora",
-    "salesManager": {
-      "name": "Luis Arias",
-      "role": "Gerente de Ventas",
-      "imageAlt": "Luis Arias, gerente de ventas de Proyecta Innova"
-    },
     "form": {
       "title": "Solicita tu cotización",
       "fields": {
@@ -654,10 +648,131 @@
       "value": "no_se"
     }
   ],
+  "terminos": {
+    "eyebrow": "Legal",
+    "title": "Términos y Condiciones",
+    "backCta": "Volver al inicio",
+    "holder": "Proyecta Innova Trasciende S.A.C. — RUC 20609903881",
+    "address": "Domicilio legal: Av. Arequipa 1860, piso 19, Of. 1905 — Lince.",
+    "sections": [
+      {
+        "title": "1. Carácter de la información publicada",
+        "body": "La información publicada en este sitio tiene carácter referencial e informativo y no constituye una oferta de contrato vinculante. Precios, medidas y disponibilidad de lotes deben confirmarse siempre con un asesor de ventas. Los renders son representaciones en 3D del proyecto, no fotografías del estado actual del terreno. Las áreas comunes descritas reflejan los compromisos de la inmobiliaria, sujetos al cronograma de construcción. La plusvalía futura del terreno no está garantizada por nadie."
+      },
+      {
+        "title": "2. Precios",
+        "body": "Los precios publicados son al contado, en soles (S/), e incluyen los impuestos peruanos aplicables. [CONFIRMAR CON CLIENTE]: la vigencia de los precios publicados y el detalle exacto de las promociones y descuentos vigentes."
+      },
+      {
+        "title": "3. Simulador de cuota",
+        "body": "El simulador de crédito directo entrega un cálculo estimado y no vinculante, sin considerar intereses ni gastos administrativos, ya que la inmobiliaria no publica sus tasas. El monto real de las cuotas y las condiciones del crédito se definen caso por caso con un asesor."
+      },
+      {
+        "title": "4. Crédito directo",
+        "body": "[CONFIRMAR CON CLIENTE]: la inicial mínima, la tasa de interés, el plazo máximo, los criterios de evaluación crediticia, las garantías solicitadas y las consecuencias de un incumplimiento de pago. Estas condiciones no están publicadas por la inmobiliaria y deben solicitarse por escrito antes de firmar."
+      },
+      {
+        "title": "5. Entrega y titulación",
+        "body": "Los terrenos se independizan y registran en Sunarp a nombre del comprador. [CONFIRMAR CON CLIENTE]: la partida registral exacta, la fecha estimada de entrega y las etapas del proceso de titulación."
+      },
+      {
+        "title": "6. Programa de referidos",
+        "body": "El programa de referidos otorga S/ 500 por cada lote comprado por una persona referida. [CONFIRMAR CON CLIENTE]: las reglas exactas de calificación del referido, el momento del pago de la recompensa y si existe un tope de referidos por persona."
+      },
+      {
+        "title": "7. Propiedad intelectual",
+        "body": "El contenido de este sitio (textos, imágenes, renders, videos) pertenece a Proyecta Innova Trasciende S.A.C. y no puede reproducirse sin autorización previa. [CONFIRMAR CON CLIENTE]: la autorización para el uso de imágenes de clientes en material de marketing."
+      },
+      {
+        "title": "8. Reclamos",
+        "body": "Los reclamos se atienden a través del Libro de Reclamaciones, conforme a la Ley 29571, y reciben respuesta en un plazo máximo de quince días hábiles."
+      },
+      {
+        "title": "9. Ley aplicable",
+        "body": "Estos términos se rigen por las leyes de la República del Perú. [CONFIRMAR CON CLIENTE]: el procedimiento y la jurisdicción exactos para la resolución de controversias."
+      }
+    ]
+  },
+  "privacidad": {
+    "eyebrow": "Legal",
+    "title": "Política de Privacidad",
+    "backCta": "Volver al inicio",
+    "holder": "Proyecta Innova Trasciende S.A.C. — RUC 20609903881",
+    "address": "Domicilio legal: Av. Arequipa 1860, piso 19, Of. 1905 — Lince.",
+    "intro": "Este tratamiento de datos personales se rige por la Ley N° 29733, Ley de Protección de Datos Personales, y su reglamento.",
+    "sections": [
+      {
+        "title": "1. Recopilación de datos personales",
+        "body": "Recopilamos datos a través de tres canales: el formulario de cotización (nombre, celular y lote de interés), el Libro de Reclamaciones (datos de identidad del reclamante, conforme a la normativa aplicable) y, si están activas, herramientas de analítica de navegación de terceros."
+      },
+      {
+        "title": "2. Uso de la información",
+        "body": "Usamos tus datos para enviarte comunicaciones comerciales sobre el proyecto y sus lotes, y para atender reclamos dentro de los plazos que exige la ley. [CONFIRMAR CON CLIENTE]: si se requiere un consentimiento independiente para campañas de marketing."
+      },
+      {
+        "title": "3. Compartición de datos con terceros",
+        "body": "No vendemos ni cedemos tus datos a terceros con fines comerciales. [CONFIRMAR CON CLIENTE]: qué proveedores (formularios, correo, publicidad) procesan datos en nombre de la inmobiliaria, y si existe transferencia de datos fuera del Perú."
+      },
+      {
+        "title": "4. Plazo de conservación de los datos",
+        "body": "[CONFIRMAR CON CLIENTE]: el tiempo que se conservan los datos personales, en particular los registrados en el Libro de Reclamaciones según la normativa vigente."
+      },
+      {
+        "title": "5. Derechos del titular de los datos",
+        "body": "Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición al tratamiento de tus datos (derechos ARCO), así como revocar tu consentimiento en cualquier momento, escribiéndonos por los canales de contacto de este sitio. Si no obtienes respuesta, puedes escalar tu reclamo ante la Autoridad Nacional de Protección de Datos Personales."
+      },
+      {
+        "title": "6. Medidas de seguridad",
+        "body": "[CONFIRMAR CON CLIENTE]: las medidas técnicas y organizativas de protección de datos implementadas, y si el banco de datos personales está inscrito ante la autoridad correspondiente."
+      },
+      {
+        "title": "7. Actualizaciones de esta política",
+        "body": "Esta política puede actualizarse periódicamente. [CONFIRMAR CON CLIENTE]: la fecha de la última actualización publicada."
+      }
+    ]
+  },
+  "libroReclamaciones": {
+    "eyebrow": "Legal",
+    "title": "Libro de Reclamaciones",
+    "backCta": "Volver al inicio",
+    "intro": "Conforme al artículo 150° del Código de Protección y Defensa del Consumidor y al Decreto Supremo N° 011-2011-PCM, este establecimiento cuenta con un Libro de Reclamaciones a tu disposición.",
+    "holder": "Proyecta Innova Trasciende S.A.C. — RUC 20609903881",
+    "address": "Av. Arequipa 1860, piso 19, Of. 1905 — Lince, Lima. Lunes a sábado, 10:00 a. m. – 7:00 p. m.",
+    "responseNote": "La empresa dará respuesta a tu reclamo en un plazo no mayor a quince (15) días hábiles, y podrás recibirla por el mismo correo con el que lo enviaste.",
+    "form": {
+      "consumerTitle": "1. Identificación del consumidor reclamante",
+      "firstName": "Nombres",
+      "lastName": "Apellidos",
+      "documentId": "DNI / Carné de extranjería",
+      "phone": "Celular",
+      "email": "Correo electrónico",
+      "address": "Domicilio",
+      "guardian": "Nombre del padre, madre o apoderado (solo si el reclamante es menor de edad)",
+      "goodTitle": "2. Identificación del bien contratado",
+      "goodType": "Tipo de bien contratado",
+      "goodTypeOptions": [
+        { "value": "lote", "label": "Lote de terreno" },
+        { "value": "atencion", "label": "Atención comercial" },
+        { "value": "otro", "label": "Otro" }
+      ],
+      "claimedAmount": "Monto reclamado en soles (opcional)",
+      "goodDescription": "Descripción del bien o servicio",
+      "detailTitle": "3. Detalle de la reclamación y pedido",
+      "claimType": "Tipo de reclamación",
+      "claimTypeOptions": [
+        { "value": "reclamo", "label": "Reclamo — disconformidad con el producto o servicio" },
+        { "value": "queja", "label": "Queja — disconformidad no relacionada al producto o servicio" }
+      ],
+      "detail": "Detalle de la reclamación",
+      "request": "Pedido del consumidor",
+      "consent": "He leído y acepto la Política de Privacidad, y autorizo el tratamiento de mis datos personales para la atención de este reclamo.",
+      "submit": "Enviar mi reclamo"
+    }
+  },
   "footer": {
     "logoAlt": "Proyecta Innova TR Inmobiliaria",
     "legalLine1": "Proyecta Innova Trasciende S.A.C. — RUC 20609903881",
-    "legalLine2": "Av. Arequipa 1860, piso 2, Oficina 207 — Lince, Lima, Perú",
+    "legalLine2": "Av. Arequipa 1860, piso 19, Of. 1905 — Lince, Lima, Perú",
     "socials": [
       {
         "network": "facebook",
@@ -697,11 +812,17 @@
     "call": "Llamar",
     "whatsapp": "WhatsApp"
   },
+  "salesManager": {
+    "name": "Luis Arias",
+    "role": "Gerente de Ventas",
+    "imageAlt": "Luis Arias, gerente de ventas de Proyecta Innova",
+    "cta": "Llamar ahora"
+  },
   "contact": {
     "whatsappNumber": "51922199903",
     "whatsappDisplay": "+51 922 199 903",
     "phoneHref": "tel:+51922199903",
     "schedule": "Lunes a sábado, 10:00 a. m. – 7:00 p. m.",
-    "address": "Av. Arequipa 1860, piso 2, Of. 207 — Lince, Lima"
+    "address": "Av. Arequipa 1860, piso 19, Of. 1905 — Lince, Lima"
   }
 }

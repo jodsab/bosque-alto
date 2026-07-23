@@ -3,6 +3,7 @@ import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
 import LeadForm from "@/features/cotizacion/LeadForm";
+import SalesManagerCallCard from "@/features/cotizacion/SalesManagerCallCard";
 
 export default function Hero() {
   const { hero } = content;
@@ -42,6 +43,8 @@ export default function Hero() {
               </li>
             ))}
           </ul>
+
+          <SalesManagerCallCard className="mt-6" />
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary">

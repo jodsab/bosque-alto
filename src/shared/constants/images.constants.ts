@@ -20,7 +20,7 @@
  */
 
 export const images = {
-  isotipo: "/assets/img/isotipo-68.webp",
+  isotipo: "/assets/img/logo-solo.png",
   heroBackground: "/assets/img/hero-bosque-alto-1000.webp",
   lote200: "/assets/img/lotes/lote-200m2.png",
   lote250: "/assets/img/lotes/lote-250m2.png",
