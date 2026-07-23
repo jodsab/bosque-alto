@@ -67,7 +67,7 @@ export default function AmenidadesSection() {
   const orchardPhotos = amenidades.gallery.slice(4);
 
   return (
-    <section id="amenidades" className="bg-cream-bg py-14 sm:py-10">
+    <section id="amenidades" className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-14">
           <div>

@@ -71,7 +71,10 @@ export const shadows = {
 } as const;
 
 export const spacing = {
-  sectionY: "clamp(3.5rem, 8vw, 7rem)",
+  // Espacio vertical entre secciones (fluido: crece con el viewport en vez
+  // de saltar en escalones). Antes era clamp(3.5rem, 8vw, 7rem) — se redujo
+  // porque se sentía demasiado grande entre secciones.
+  sectionY: "clamp(3rem, 6vw, 5rem)",
   sectionX: "clamp(1.25rem, 5vw, 2.5rem)",
 } as const;
 
@@ -87,6 +90,8 @@ export const contact = {
   whatsappNumber: "51922199903", // formato internacional sin '+' para enlaces wa.me
   whatsappDisplay: "+51 922 199 903",
   whatsappHref: "https://wa.me/51922199903",
+  // Línea directa del gerente de ventas, para el CTA "Llamar ahora"
+  salesManagerPhone: "51982810387",
 } as const;
 
 export const theme = { colors, fonts, radii, shadows, spacing, breakpoints, contact };

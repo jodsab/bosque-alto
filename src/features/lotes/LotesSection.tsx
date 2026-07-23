@@ -13,7 +13,7 @@ export default function LotesSection() {
   const { lotes } = content;
 
   return (
-    <section id="lotes" className="bg-cream-bg py-14 sm:py-20">
+    <section id="lotes" className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <p className="eyebrow">{lotes.eyebrow}</p>
         <h2 className="mt-2 max-w-2xl font-display text-3xl text-brand-dark sm:text-4xl">{lotes.title}</h2>

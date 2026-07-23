@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-import { colors, radii, shadows } from "./src/shared/constants/theme.constants";
+import { colors, radii, shadows, spacing } from "./src/shared/constants/theme.constants";
 
 // Este archivo NO define valores propios: todo viene de
 // src/shared/constants/theme.constants.ts, que es el único lugar
@@ -8,6 +8,9 @@ const config: Config = {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
+      spacing: {
+        "section-y": spacing.sectionY,
+      },
       colors: {
         "brand-dark": colors.brandDark,
         "brand-dark-alt": colors.brandDarkAlt,

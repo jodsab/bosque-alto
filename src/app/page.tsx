@@ -5,6 +5,8 @@ import AmenidadesSection from "@/features/lotes/AmenidadesSection";
 import SliderSection from "@/features/carrousel/SliderSection";
 import PlusvaliaSection from "@/features/plusvalia/PlusvaliaSection";
 import UbicacionSection from "@/features/ubicacion/UbicacionSection";
+import Render3DSection from "@/features/ubicacion/Render3DSection";
+import Tour360Section from "@/features/ubicacion/Tour360Section";
 import FacilidadesPagoSection from "@/features/facilidades-pago/FacilidadesPagoSection";
 import TestimoniosSection from "@/features/testimonios/TestimoniosSection";
 import FaqSection from "@/features/faq/FaqSection";
@@ -22,6 +24,8 @@ export default function HomePage() {
         <SliderSection />
         <PlusvaliaSection />
         <UbicacionSection />
+        <Render3DSection />
+        <Tour360Section />
         <FacilidadesPagoSection />
         <TestimoniosSection />
         <FaqSection />

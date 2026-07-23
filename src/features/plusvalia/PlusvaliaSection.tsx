@@ -32,7 +32,7 @@ export default function PlusvaliaSection() {
   const { plusvalia } = content;
 
   return (
-    <section id="plusvalia" className="bg-cream-bg py-0 sm:py-20">
+    <section id="plusvalia" className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <p className="eyebrow">{plusvalia.eyebrow}</p>
         <h2 className="mt-2 max-w-3xl font-display text-3xl text-brand-dark sm:text-4xl">{plusvalia.title}</h2>

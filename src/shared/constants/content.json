@@ -78,7 +78,7 @@
       "Seguridad, privacidad y tranquilidad"
     ],
     "ctaPrimary": "Pedir precios por WhatsApp",
-    "ctaSecondary": "Ver los 5 lotes y sus precios",
+    "ctaSecondary": "Ver los 4 lotes y sus precios",
     "whatsappCta": "Escribir por WhatsApp",
     "phoneDisplay": "+51 922 199 903",
     "schedule": "Lunes a sábado, 10:00 a. m. – 7:00 p. m.",
@@ -407,9 +407,45 @@
     "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=-12.0831097,-77.0359348",
     "mapAttribution": "Mapas estáticos generados a partir de datos de OpenStreetMap. Al pulsarlos se abre el mapa interactivo de Google.",
     "mapAttributionUrl": "https://www.openstreetmap.org/copyright",
-    "aerial": {
-      "imageAlt": "Vista aérea del condominio Bosque Alto entre las dunas y el huerto de Huacho",
-      "caption": "Bosque Alto entre la duna y el huerto. La franja verde son los más de 5,000 árboles frutales."
+    "render3d": {
+      "eyebrow": "Renders 3D del proyecto",
+      "title": "Así se proyecta Bosque Alto",
+      "description": "Un recorrido visual por los renders 3D: la distribución de los lotes, los accesos y las áreas comunes del condominio.",
+      "items": [
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 1"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 2"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 3"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 4"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 5"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 6"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 7"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 8"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 9"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 10"
+        },
+        {
+          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 11"
+        }
+      ]
     },
     "tour360": {
       "eyebrow": "Recorrido virtual",
@@ -419,16 +455,16 @@
       "items": [
         {
           "imageAlt": "Calle interior de la lotización de Bosque Alto, con árboles frutales a los lados",
-          "caption": "Render del proyecto",
-          "cta": "Ver en 360°"
+          "cta": "Ver en 360°",
+          "embedUrl": "https://kuula.co/share/hStlf?logo=1&info=1&fs=1&vr=0&sd=1&autorotate=0.18&thumbs=1&inst=es"
         },
         {
           "imageAlt": "Fotograma del recorrido 3D del proyecto Bosque Alto",
-          "caption": "Render del proyecto",
-          "cta": "Ver el recorrido 3D"
+          "cta": "Ver el recorrido 3D",
+          "embedUrl": "https://www.youtube.com/embed/vcYMjYiGH-M"
         }
       ],
-      "footnote": "Ninguno de los dos se descarga hasta que pulsas."
+      "footnote": "Contenido interactivo: puedes explorarlo directamente aquí, sin salir de la web."
     }
   },
   "facilidadesPago": {
@@ -528,6 +564,9 @@
         },
         {
           "imageAlt": "Clientes reunidos bajo sombrillas en el terreno de Bosque Alto"
+        },
+        {
+          "imageAlt": "Cliente de Proyecta Innova en la entrega de su lote en Bosque Alto"
         }
       ]
     },
@@ -578,7 +617,12 @@
       "Av. Arequipa 1860, piso 2, Of. 207 — Lince, Lima",
       "Lunes a sábado, 10:00 a. m. – 7:00 p. m."
     ],
-    "ctaCall": "Llamar ahora — mismo número",
+    "ctaCall": "Llamar ahora",
+    "salesManager": {
+      "name": "Luis Arias",
+      "role": "Gerente de Ventas",
+      "imageAlt": "Luis Arias, gerente de ventas de Proyecta Innova"
+    },
     "form": {
       "title": "Solicita tu cotización",
       "fields": {

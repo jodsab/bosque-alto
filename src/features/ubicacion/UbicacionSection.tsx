@@ -16,7 +16,7 @@ export default function UbicacionSection() {
   const { ubicacion } = content;
 
   return (
-    <section id="ubicacion" className="bg-cream-bg py-14 sm:py-20">
+    <section id="ubicacion" className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <p className="eyebrow">{ubicacion.eyebrow}</p>
         <h2 className="mt-2 font-display text-3xl text-brand-dark sm:text-4xl">{ubicacion.title}</h2>
@@ -109,44 +109,6 @@ export default function UbicacionSection() {
             OpenStreetMap
           </a>
         </p>
-
-        <div className="relative mt-10 h-72 w-full overflow-hidden rounded-lg sm:h-96">
-          <ImageWithFallback src={images.vistaAerea} alt={ubicacion.aerial.imageAlt} fill className="object-cover" />
-          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-brand-dark/80 to-transparent p-5">
-            <p className="text-sm text-text-on-dark">{ubicacion.aerial.caption}</p>
-          </div>
-        </div>
-
-        <div className="mt-14">
-          <p className="eyebrow">{ubicacion.tour360.eyebrow}</p>
-          <h3 className="mt-2 font-display text-2xl text-brand-dark">{ubicacion.tour360.title}</h3>
-          <p className="mt-2 max-w-2xl text-sm text-text-muted">{ubicacion.tour360.description}</p>
-          <p className="mt-1 text-xs italic text-text-muted">{ubicacion.tour360.disclaimer}</p>
-
-          <div className="mt-6 grid gap-6 sm:grid-cols-2">
-            {ubicacion.tour360.items.map((item, i) => (
-              <div key={item.imageAlt} className="group relative overflow-hidden rounded-lg">
-                <div className="relative h-56 w-full">
-                  <ImageWithFallback
-                    src={i === 0 ? images.recorrido360 : images.videoRecorrido3d}
-                    alt={item.imageAlt}
-                    fill
-                    className="object-cover transition group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-2 bg-brand-dark/40">
-                    <span className="rounded-pill bg-brand-dark/80 px-3 py-1 text-xs text-text-on-dark">
-                      {item.caption}
-                    </span>
-                    <button type="button" className="btn-accent px-4 py-2">
-                      {item.cta}
-                    </button>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          <p className="mt-3 text-xs text-text-muted">{ubicacion.tour360.footnote}</p>
-        </div>
       </div>
     </section>
   );

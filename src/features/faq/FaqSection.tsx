@@ -6,7 +6,7 @@ export default function FaqSection() {
   const { faq } = content;
 
   return (
-    <section id="preguntas" className="bg-cream-bg py-14 sm:py-20">
+    <section id="preguntas" className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-3xl px-5">
         <p className="eyebrow">{faq.eyebrow}</p>
         <h2 className="mt-2 font-display text-3xl text-brand-dark sm:text-4xl">{faq.title}</h2>

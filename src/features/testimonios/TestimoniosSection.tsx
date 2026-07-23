@@ -3,13 +3,13 @@ import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
 
-const DELIVERY_KEYS = ["entrega1", "entrega2", "entrega3", "entrega4", "clientesEnElCampo"] as const;
+const DELIVERY_KEYS = ["clienteF1", "clienteF2", "clienteF3", "clienteF4", "clienteF5", "clienteF8"] as const;
 
 export default function TestimoniosSection() {
   const { testimonios } = content;
 
   return (
-    <section className="bg-cream-bg py-14 sm:py-20">
+    <section className="bg-cream-bg py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <p className="eyebrow">{testimonios.eyebrow}</p>
         <h2 className="mt-2 font-display text-3xl text-brand-dark sm:text-4xl">{testimonios.title}</h2>
@@ -20,7 +20,7 @@ export default function TestimoniosSection() {
               src={images.clientesEnLaDuna}
               alt={testimonios.hero.imageAlt}
               fill
-              className="object-cover transition duration-500 group-hover:scale-105"
+              className="object-cover object-[center_calc(50%_+_80px)] transition duration-500 group-hover:scale-105"
             />
             <p className="absolute bottom-3 left-3 rounded-pill bg-brand-dark/80 px-3 py-1 text-xs text-text-on-dark">
               {testimonios.hero.caption}
@@ -41,7 +41,7 @@ export default function TestimoniosSection() {
             {testimonios.deliveries.title}{" "}
             <span className="text-brand-green">{testimonios.deliveries.hashtag}</span>
           </h3>
-          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-5">
+          <div className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {testimonios.deliveries.gallery.map((g, i) => (
               <div key={g.imageAlt} className="group relative aspect-square overflow-hidden rounded-md">
                 <ImageWithFallback

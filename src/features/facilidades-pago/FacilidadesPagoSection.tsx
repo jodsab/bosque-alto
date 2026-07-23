@@ -5,7 +5,7 @@ export default function FacilidadesPagoSection() {
   const { facilidadesPago } = content;
 
   return (
-    <section id="pagar" className="bg-brand-dark py-14 sm:py-20">
+    <section id="pagar" className="bg-brand-dark py-section-y">
       <div className="mx-auto max-w-6xl px-5">
         <p className="eyebrow-on-dark">{facilidadesPago.eyebrow}</p>
         <h2 className="mt-2 font-display text-3xl text-text-on-dark sm:text-4xl">
