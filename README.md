@@ -1,4 +1,4 @@
-# Bosque Alto — Landing (clon estructural)
+# La Finca de Don Pedro — Landing (clon estructural)
 
 Clon del landing `https://heroic-sorbet-d0e4a1.netlify.app/` construido en
 **Next.js 14 (App Router)** con **arquitectura screaming**: las carpetas
@@ -56,7 +56,7 @@ src/
   esos valores automáticamente — no necesitas tocar Tailwind.
 - **Imágenes**: edita `src/shared/constants/images.constants.ts` o,
   más simple, sube el archivo real a `public/assets/img/` con el mismo
-  nombre que ya está referenciado (por ejemplo `hero-bosque-alto-1600.webp`).
+  nombre que ya está referenciado (por ejemplo `hero-don-pedro-1000.webp`).
   Mientras el archivo no exista, se muestra automáticamente un placeholder
   genérico (`_placeholder.svg`) para no romper el layout.
 - **WhatsApp / teléfono**: está centralizado en `theme.constants.ts` →
@@ -99,6 +99,6 @@ marca real del cliente.
 
 - Todos los textos → `src/shared/constants/content.json`
 - Todas las imágenes (nombre + alt) → `src/shared/constants/images.constants.ts`
-- WhatsApp de ventas: **+51 922 199 903**
+- WhatsApp de ventas: **+51 982 810 387**
 - Dirección sala de ventas: Av. Arequipa 1860, piso 2, Of. 207 — Lince, Lima
 - Redes sociales, RUC y textos legales → `content.json` → `footer`

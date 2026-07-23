@@ -1,13 +1,12 @@
 {
   "meta": {
-    "title": "Terrenos en Huacho desde S/ 7,500 | Bosque Alto — Proyecta Innova TR",
-    "description": "Lotes de campo en Huacho desde S/ 7,500 al contado. Título de propiedad independizado, inscritos en Sunarp, crédito directo a sola firma y más de 5,000 árboles frutales. Condominio Campestre Bosque Alto.",
+    "title": "Terrenos en Huacho desde S/ 7,500 | La Finca de La Finca de Don Pedro — Proyecta Innova TR",
+    "description": "Lotes de campo en Huacho desde S/ 7,500 al contado. Título de propiedad independizado, inscritos en Sunarp, crédito directo a sola firma y más de 5,000 árboles frutales. La Finca de La Finca de Don Pedro.",
     "ogDescription": "Título de propiedad independizado e inscrito en Sunarp. Crédito directo, a sola firma. Más de 5,000 árboles frutales.",
     "themeColor": "#0F1A12"
   },
   "brand": {
-    "name": "Proyecta Innova",
-    "suffix": "TR",
+    "name": "Proyecta Innova TR",
     "fullName": "Proyecta Innova Trasciende S.A.C.",
     "ruc": "20609903881"
   },
@@ -66,10 +65,11 @@
     ]
   },
   "hero": {
-    "eyebrow": "Finca Don Pedro - Huacho",
+    "eyebrow": "Finca La Finca de Don Pedro - Huacho",
     "titlePrefix": "Tu lote ",
     "titleEmphasis": "de campo",
     "titleSuffix": " en Huacho desde S/10,000",
+    "titleSuffixEmphasis": " Entrega Noviembre 2026",
     "priceLine": "Lotes de campo en Huacho desde S/ 12,500",
     "description": "Compramos terrenos eriazos al estado para proyectos agropecuarios a s/2 el m2.\n\n Recibe tu lote con título de propiedad e inscrito en Sunarp. Crédito directo, a sola firma, sin banco.",
     "bullets": [
@@ -80,9 +80,9 @@
     "ctaPrimary": "Pedir precios por WhatsApp",
     "ctaSecondary": "Ver los 4 lotes y sus precios",
     "whatsappCta": "Escribir por WhatsApp",
-    "phoneDisplay": "+51 922 199 903",
+    "phoneDisplay": "+51 982 810 387",
     "schedule": "Lunes a sábado, 10:00 a. m. – 7:00 p. m.",
-    "imageAlt": "Huerto de Bosque Alto en primer plano con la cresta de las dunas de Huacho al fondo",
+    "imageAlt": "Huerto de La Finca de Don Pedro en primer plano con la cresta de las dunas de Huacho al fondo",
     "form": {
       "title": "Recibe precios y disponibilidad",
       "subtitle": "Te responde un asesor por WhatsApp, hoy mismo.",
@@ -128,7 +128,7 @@
         "dimensions": "13.4 × 13.4 m",
         "pricePerM2": "S/ 69.44 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
-        "imageAlt": "Alameda arbolada dentro del condominio Bosque Alto"
+        "imageAlt": "Alameda arbolada dentro del condominio La Finca de Don Pedro"
       },
       {
         "id": "lote-250",
@@ -138,7 +138,7 @@
         "pricePerM2": "S/ 75.00 por m²",
         "cta": "Consultar el descuento",
         "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
-        "imageAlt": "Zona de áreas verdes y camino peatonal en Bosque Alto"
+        "imageAlt": "Zona de áreas verdes y camino peatonal en La Finca de Don Pedro"
       },
       {
         "id": "lote-500",
@@ -157,7 +157,7 @@
         "pricePerM2": "S/ 75.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
         "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
-        "imageAlt": "Vista aérea del condominio Bosque Alto entre el huerto y las dunas"
+        "imageAlt": "Vista aérea del condominio La Finca de Don Pedro entre el huerto y las dunas"
       }
     ],
     "comparator": {
@@ -177,7 +177,7 @@
       "equivalentLabel": "Superficie equivalente",
       "equivalentValue": "24 autos",
       "ctaTemplate": "Consultar el lote de {size}",
-      "gridCaption": "Comparación a escala de los lotes de Bosque Alto",
+      "gridCaption": "Comparación a escala de los lotes de La Finca de Don Pedro",
       "referenceLabel": "Lote de 1,000 m² — referencia",
       "carScaleLabel": "Auto a escala: 4.5 × 1.8 m",
       "gridNote": "Cada cuadro de la cuadrícula es 1 m × 1 m. El auto está dibujado a escala."
@@ -191,7 +191,7 @@
         "detail": "Nada común en un condominio campestre"
       },
       {
-        "title": "Club house y Salón de eventos",
+        "title": "Piscina",
         "detail": "Para adultos y para niños"
       },
       {
@@ -217,7 +217,7 @@
     "footnote": "Doce amenidades comprometidas por la inmobiliaria en el proyecto.",
     "gallery": [
       {
-        "imageAlt": "Piscina del condominio Bosque Alto",
+        "imageAlt": "Piscina del condominio La Finca de Don Pedro",
         "caption": "Render"
       },
       {
@@ -229,19 +229,19 @@
         "caption": "Render"
       },
       {
-        "imageAlt": "Pórtico de ingreso a Bosque Alto",
+        "imageAlt": "Pórtico de ingreso a La Finca de Don Pedro",
         "caption": "Render"
       },
       {
-        "imageAlt": "Fresas cultivadas en el huerto de Bosque Alto",
-        "caption": "Fresas"
+        "imageAlt": "Paltas cultivadas en el huerto de La Finca de Don Pedro",
+        "caption": "Paltas"
       },
       {
-        "imageAlt": "Mandarinas en un árbol del huerto de Bosque Alto",
+        "imageAlt": "Mandarinas en un árbol del huerto de La Finca de Don Pedro",
         "caption": "Mandarinas"
       },
       {
-        "imageAlt": "Papayas en el huerto de Bosque Alto",
+        "imageAlt": "Papayas en el huerto de La Finca de Don Pedro",
         "caption": "Papayas"
       }
     ],
@@ -252,74 +252,81 @@
     }
   },
   "carrousel": {
-    "eyebrow": "Así va Bosque Alto",
+    "eyebrow": "Así va La Finca de Don Pedro",
     "title": "El proyecto en fotos, tal como está hoy",
     "description": "Un recorrido visual por el terreno, los accesos y el avance real del condominio.",
     "items": [
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 1"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 1"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 2"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 2"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 3"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 3"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 4"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 4"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 5"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 5"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 6"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 6"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 7"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 7"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 8"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 8"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 9"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 9"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 10"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 10"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 11"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 11"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 12"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 12"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 13"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 13"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 14"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 14"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 15"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 15"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 16"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 16"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 17"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 17"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 18"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 18"
       },
       {
-        "imageAlt": "Avance del proyecto Bosque Alto en Huacho — foto 19"
+        "imageAlt": "Avance del proyecto La Finca de Don Pedro en Huacho — foto 19"
       }
     ]
   },
   "plusvalia": {
     "eyebrow": "Por qué ahora",
     "title": "Huacho está dentro de la zona de influencia directa del megapuerto de Chancay",
-    "description": "No es una promesa de rentabilidad: son hechos públicos y verificables. Cada uno con su fuente.",
+    "description": "70km A una hora del puerto, por la Panamericana Norte.",
     "facts": [
+      {
+        "value": "10x",
+        "unit": "",
+        "title": "Potencial de valorización",
+        "detail": "Los proyectos desarrollados sobre terrenos adquiridos al Estado generan una valorización importante conforme avanzan las etapas de saneamiento, infraestructura y formalización.",
+        "sourceLabel": "Congreso de la República"
+      },
       {
         "value": "Ley 32449",
         "unit": "",
@@ -337,32 +344,18 @@
         "sourceUrl": "https://comunicaciones.congreso.gob.pe/noticias/evaluan-plan-de-inversiones-en-zonas-de-influencias-en-el-megapuerto-de-chancay/"
       },
       {
-        "value": "70",
-        "unit": "km",
-        "title": "A una hora del puerto, por la Panamericana Norte",
-        "detail": "De Chancay a Huacho hay unos 70 km por la carretera PE-1N, alrededor de 55 minutos en auto. Cerca del corredor, no encima de él."
-      },
-      {
         "value": "US$ 1,300",
         "unit": "millones",
         "title": "El puerto ya opera, no es un proyecto",
         "detail": "Inaugurado en noviembre de 2024 y operado por Cosco Shipping (60%) y Volcan (40%). Primera etapa: ~US$ 1,300 millones y capacidad para 1 millón de contenedores al año.",
         "sourceLabel": "Puerto de Chancay",
         "sourceUrl": "https://es.wikipedia.org/wiki/Puerto_de_Chancay"
-      },
-      {
-        "value": "10x",
-        "unit": "",
-        "title": "Potencial de valorización",
-        "detail": "Los proyectos desarrollados sobre terrenos adquiridos al Estado generan una valorización importante conforme avanzan las etapas de saneamiento, infraestructura y formalización.",
-        "sourceLabel": "Congreso de la República",
-        "sourceUrl": "Distancia entre ciudades. La distancia exacta desde el lote: [CONFIRMAR CON CLIENTE]"
       }
     ],
     "caveat": {
       "title": "Compra antes de la titulación",
       "highlight": "Multiplica el valor de tu inversión",
-      "description": "La mayor valorización ocurre antes del saneamiento legal. En Finca Don Pedro adquirimos terrenos eriazos del Estado para desarrollar proyectos agrícolas y campestres. Cuando el Estado culmina el procedimiento de venta y el predio obtiene su título definitivo, el valor comercial del terreno suele incrementarse significativamente, porque pasa de ser un terreno en posesión a un inmueble formalizado. Ese es el mismo principio bajo el que trabajan muchos grandes desarrolladores inmobiliarios.",
+      "description": "La mayor valorización ocurre antes del saneamiento legal. En Finca La Finca de Don Pedro adquirimos terrenos eriazos del Estado para desarrollar proyectos agrícolas y campestres. Cuando el Estado culmina el procedimiento de venta y el predio obtiene su título definitivo, el valor comercial del terreno suele incrementarse significativamente, porque pasa de ser un terreno en posesión a un inmueble formalizado. Ese es el mismo principio bajo el que trabajan muchos grandes desarrolladores inmobiliarios.",
       "referencesLabel": "Normativa que respalda el proceso",
       "references": [
         {
@@ -386,7 +379,7 @@
       "title": "El proyecto — Huacho",
       "imageAlt": "Mapa de Huacho, en la provincia de Huaura, junto a la Panamericana Norte",
       "mapCta": "Abrir mapa interactivo",
-      "mapUrl": "https://www.google.com/maps/place/Laguna+La+Encantada/@-11.134092,-77.59261,14z/data=!4m15!1m8!3m7!1s0x9106df11d879eca9:0xeddc2693a15ed330!2zSHVhY2hvLCBQZXLDug!3b1!8m2!3d-11.1227218!4d-77.6105679!16zL20vMDJzOWdf!3m5!1s0x9106e12e8592141f:0x52958753ecd41f6f!8m2!3d-11.134383!4d-77.557147!16s%2Fg%2F11h38smy57?hl=es-ES&entry=ttu&g_ep=EgoyMDI2MDcxOS4wIKXMDSoASAFQAw%3D%3D",
+      "mapUrl": "https://www.google.com/maps/place/11%C2%B009'10.5%22S+77%C2%B030'14.5%22W/@-11.1529246,-77.5066026,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-11.1529246!4d-77.5040277!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D",
       "bullets": [
         "5 min de la Laguna Encantada",
         "20 min de la ciudad de Huacho"
@@ -404,62 +397,62 @@
     },
     "ctaVisit": "Agendar visita al terreno",
     "ctaDirections": "Cómo llegar a la oficina",
-    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=-12.0831097,-77.0359348",
+    "directionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Proyecta%20Innova%20Trasciende%20Sac%2C%20Edificio%20IQ%2C%20Av.%20Arequipa%201860%2C%20Lince%2015046",
     "mapAttribution": "Mapas estáticos generados a partir de datos de OpenStreetMap. Al pulsarlos se abre el mapa interactivo de Google.",
     "mapAttributionUrl": "https://www.openstreetmap.org/copyright",
     "render3d": {
       "eyebrow": "Renders 3D del proyecto",
-      "title": "Así se proyecta Bosque Alto",
+      "title": "Así se proyecta La Finca de Don Pedro",
       "description": "Un recorrido visual por los renders 3D: la distribución de los lotes, los accesos y las áreas comunes del condominio.",
       "items": [
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 1"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 1"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 2"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 2"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 3"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 3"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 4"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 4"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 5"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 5"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 6"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 6"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 7"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 7"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 8"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 8"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 9"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 9"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 10"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 10"
         },
         {
-          "imageAlt": "Render 3D del proyecto Bosque Alto — vista 11"
+          "imageAlt": "Render 3D del proyecto La Finca de Don Pedro — vista 11"
         }
       ]
     },
     "tour360": {
       "eyebrow": "Recorrido virtual",
       "title": "Recorre la lotización sin salir de casa",
-      "description": "Recorrido 360° del proyecto Bosque Alto: la distribución de los lotes, las calles interiores y las áreas comunes. Míralo ahora y luego agenda tu visita para ver el terreno.",
+      "description": "Recorrido 360° del proyecto La Finca de Don Pedro: la distribución de los lotes, las calles interiores y las áreas comunes. Míralo ahora y luego agenda tu visita para ver el terreno.",
       "disclaimer": "Es un recorrido sobre el render del proyecto, no una filmación del terreno.",
       "items": [
         {
-          "imageAlt": "Calle interior de la lotización de Bosque Alto, con árboles frutales a los lados",
+          "imageAlt": "Calle interior de la lotización de La Finca de Don Pedro, con árboles frutales a los lados",
           "cta": "Ver en 360°",
           "embedUrl": "https://kuula.co/share/hStlf?logo=1&info=1&fs=1&vr=0&sd=1&autorotate=0.18&thumbs=1&inst=es"
         },
         {
-          "imageAlt": "Fotograma del recorrido 3D del proyecto Bosque Alto",
+          "imageAlt": "Fotograma del recorrido 3D del proyecto La Finca de Don Pedro",
           "cta": "Ver el recorrido 3D",
           "embedUrl": "https://www.youtube.com/embed/vcYMjYiGH-M"
         }
@@ -479,7 +472,7 @@
       {
         "number": 2,
         "title": "Visita el terreno",
-        "detail": "Conoce Bosque Alto, el huerto y las áreas comunes antes de decidir nada."
+        "detail": "Conoce La Finca de Don Pedro, el huerto y las áreas comunes antes de decidir nada."
       },
       {
         "number": 3,
@@ -495,63 +488,149 @@
     "simulator": {
       "title": "Simula tu crédito directo",
       "lotLabel": "Lote",
-      "lotOptions": [
-        {
-          "label": "100 m² — S/ 7,500",
-          "price": 7500
-        },
-        {
-          "label": "180 m² — S/ 12,500",
-          "price": 12500
-        },
-        {
-          "label": "200 m² — S/ 14,999",
-          "price": 14999,
-          "default": true
-        },
-        {
-          "label": "250 m² — S/ 21,500",
-          "price": 21500
-        },
-        {
-          "label": "1,000 m² — S/ 75,000",
-          "price": 75000
-        }
-      ],
       "downPaymentLabel": "Cuota inicial",
-      "downPaymentPercent": 30,
       "termLabel": "Plazo a simular",
       "termOptions": [
         12,
         24,
-        36,
-        48
+        36
       ],
       "monthlyLabel": "Cuota mensual estimada",
       "duringLabel": "durante {months} meses ·",
       "balanceLabel": "saldo a financiar {balance}",
-      "disclaimer": "Cálculo referencial: divide el saldo entre el plazo, sin intereses ni gastos. La inmobiliaria no publica tasa, inicial mínima ni plazos. [CONFIRMAR CON CLIENTE] — tu cuota real la confirma un asesor.",
-      "cta": "Validar esta cuota con un asesor"
+      "disclaimer": "Tabla de financiamiento directo de la inmobiliaria, disponible solo para lotes de 200 m². El precio total varía según la inicial y el plazo elegidos. — tu cuota real la confirma un asesor.",
+      "cta": "Validar esta cuota con un asesor",
+      "unavailableCta": "Contactar a un asesor",
+      "lotOptions": [
+        {
+          "id": "200",
+          "label": "200 m²",
+          "price": 10000,
+          "financed": true,
+          "downPaymentOptions": [
+            3000,
+            4000,
+            5000,
+            6000
+          ],
+          "defaultDownPayment": 6000,
+          "financingTable": [
+            {
+              "downPayment": 6000,
+              "term": 12,
+              "total": 12600,
+              "monthly": 550.00
+            },
+            {
+              "downPayment": 6000,
+              "term": 24,
+              "total": 13200,
+              "monthly": 300.00
+            },
+            {
+              "downPayment": 6000,
+              "term": 36,
+              "total": 13800,
+              "monthly": 216.66
+            },
+            {
+              "downPayment": 5000,
+              "term": 12,
+              "total": 12700,
+              "monthly": 641.66
+            },
+            {
+              "downPayment": 5000,
+              "term": 24,
+              "total": 13400,
+              "monthly": 350.00
+            },
+            {
+              "downPayment": 5000,
+              "term": 36,
+              "total": 14100,
+              "monthly": 252.77
+            },
+            {
+              "downPayment": 4000,
+              "term": 12,
+              "total": 12800,
+              "monthly": 733.33
+            },
+            {
+              "downPayment": 4000,
+              "term": 24,
+              "total": 13600,
+              "monthly": 400.00
+            },
+            {
+              "downPayment": 4000,
+              "term": 36,
+              "total": 14400,
+              "monthly": 288.88
+            },
+            {
+              "downPayment": 3000,
+              "term": 12,
+              "total": 12900,
+              "monthly": 825.00
+            },
+            {
+              "downPayment": 3000,
+              "term": 24,
+              "total": 13800,
+              "monthly": 450.00
+            },
+            {
+              "downPayment": 3000,
+              "term": 36,
+              "total": 14700,
+              "monthly": 325.00
+            }
+          ]
+        },
+        {
+          "id": "250",
+          "label": "250 m²",
+          "price": 10000,
+          "financed": false,
+          "unavailableMessage": "Los lotes de 250 m2 se venden al contado a 10 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
+        },
+        {
+          "id": "500",
+          "label": "500 m²",
+          "price": 15000,
+          "financed": false,
+          "unavailableMessage": "Los lotes de 500 m² se venden al contado a S/ 15,000. — opciones de financiamiento de manera presencial o por llamada."
+        },
+        {
+          "id": "1000",
+          "label": "1,000 m²",
+          "price": 25000,
+          "financed": false,
+          "unavailableMessage": "Los lotes de 1,000 m² se venden al contado a S/ 25,000. — opciones de financiamiento de manera presencial o por llamada."
+        }
+      ]
     }
   },
   "testimonios": {
     "eyebrow": "Gente que #Proyecta",
     "title": "Propietarios reales, entregas reales",
     "hero": {
-      "imageAlt": "Grupo de clientes de Proyecta Innova celebrando sobre la duna, con el huerto de Bosque Alto al fondo",
-      "caption": "Clientes en Bosque Alto, Huacho — foto real"
+      "imageAlt": "Grupo de clientes de Proyecta Innova celebrando sobre la duna, con el huerto de La Finca de Don Pedro al fondo",
+      "caption": "Clientes en La Finca de Don Pedro, Huacho — foto real"
     },
     "quote": {
       "text": "O «Siempre quise tener un terrenito. Antes me dedicaba a la construcción, pero desde hace 4 años me dedico a referir clientes para Proyecta entre mis familiares y amigos.»",
       "author": "Olga Acosta",
-      "role": "Propietaria en Bosque Alto"
+      "role": "Propietaria en La Finca de Don Pedro"
     },
     "deliveries": {
       "title": "Entregas de título en la oficina de Lince",
       "hashtag": "#FamiliaProyectaInnova",
       "gallery": [
         {
-          "imageAlt": "Entrega de título de propiedad a una propietaria de Bosque Alto"
+          "imageAlt": "Entrega de título de propiedad a una propietaria de La Finca de Don Pedro"
         },
         {
           "imageAlt": "Nuevos propietarios recibiendo su título de propiedad"
@@ -560,13 +639,13 @@
           "imageAlt": "Familia recibiendo su título de propiedad en la sala de ventas"
         },
         {
-          "imageAlt": "Propietarios con su título de propiedad de Bosque Alto"
+          "imageAlt": "Propietarios con su título de propiedad de La Finca de Don Pedro"
         },
         {
-          "imageAlt": "Clientes reunidos bajo sombrillas en el terreno de Bosque Alto"
+          "imageAlt": "Clientes reunidos bajo sombrillas en el terreno de La Finca de Don Pedro"
         },
         {
-          "imageAlt": "Cliente de Proyecta Innova en la entrega de su lote en Bosque Alto"
+          "imageAlt": "Cliente de Proyecta Innova en la entrega de su lote en La Finca de Don Pedro"
         }
       ]
     },
@@ -583,28 +662,16 @@
     "ctaWhatsapp": "Preguntar por WhatsApp",
     "items": [
       {
-        "question": "¿El lote tiene título de propiedad?",
-        "answer": "Sí. La inmobiliaria entrega el lote con título de propiedad independizado, y sus terrenos están registrados en Sunarp. Independizado significa que la partida registral queda a tu nombre, solo por tu lote."
-      },
-      {
-        "question": "¿Puedo pagar en cuotas?",
-        "answer": "Sí. Existe crédito directo y a sola firma: financia la propia inmobiliaria, sin banco de por medio. El monto de la cuota mensual y de la inicial [CONFIRMAR CON CLIENTE] — hoy no están publicados; un asesor te los pasa según el lote que elijas."
-      },
-      {
         "question": "¿Revisan mi historial crediticio o Infocorp?",
-        "answer": "El crédito es directo y a sola firma, es decir, no interviene un banco ni una financiera. Si además se evalúa el historial en Infocorp, [CONFIRMAR CON CLIENTE]: no lo especifican por escrito. Consúltalo por WhatsApp antes de separar."
+        "answer": "No. Nuestros planes de financiamiento son directos, por lo que puedes acceder a un lote sin necesidad de pasar por un banco."
       },
       {
         "question": "¿Puedo visitar el terreno antes de comprar?",
-        "answer": "Sí, y conviene hacerlo. Puedes agendar la visita por WhatsApp o pasar por la sala de ventas en Av. Arequipa 1860, piso 19, oficina 1905, Lince, de lunes a sábado de 10:00 a. m. a 7:00 p. m."
-      },
-      {
-        "question": "¿Qué servicios tiene el lote?",
-        "answer": "Se entrega con agua, luz y desagüe instalados. El condominio contempla piscina, baños termales, salón de recepciones, campo de fútbol, zona de parrillas, juegos para niños, club house, cerco perimétrico y pórtico de ingreso, además del huerto de más de 5,000 árboles frutales."
+        "answer": "Sí, por supuesto. Organizamos visitas guiadas todos los fines de semana  o dias de semana previa coordinación para que conozcas el proyecto, recorras los lotes disponibles y resuelvas todas tus dudas antes de tomar una decisión."
       },
       {
         "question": "¿Qué pasa si dejo de pagar?",
-        "answer": "[CONFIRMAR CON CLIENTE]. Las condiciones de resolución del contrato, penalidades o devolución de lo pagado no están publicadas en ningún lado. Pídelas por escrito antes de firmar: es tu derecho y una empresa formal no debería tener problema en dártelas."
+        "answer": "Si por algún motivo tienes dificultades para continuar con tus pagos, te invitamos a comunicarte con nosotros lo antes posible para evaluar alternativas como el congelamiento de cuotas o revender tu lote a un tercero. Nuestro objetivo es ayudarte a encontrar la mejor solución según tu caso y no pierdas el dinero invertido."
       }
     ]
   },
@@ -613,7 +680,7 @@
     "title": "Estás a un mensaje de tu lote en Huacho",
     "description": "Déjanos tus datos y un asesor te escribe por WhatsApp con precios, disponibilidad y las condiciones del crédito directo.",
     "contactList": [
-      "+51 922 199 903 — WhatsApp de ventas",
+      "+51 982 810 387 — WhatsApp de ventas",
       "Av. Arequipa 1860, piso 19, Of. 1905 — Lince",
       "Lunes a sábado, 10:00 a. m. – 7:00 p. m."
     ],
@@ -644,6 +711,10 @@
       "value": "1000m2"
     },
     {
+      "label": "Quiero un lote mucho más grande",
+      "value": "Quiero_un_lote_mucho_mas_grande"
+    },
+    {
       "label": "Aún no lo sé",
       "value": "no_se"
     }
@@ -661,7 +732,7 @@
       },
       {
         "title": "2. Precios",
-        "body": "Los precios publicados son al contado, en soles (S/), e incluyen los impuestos peruanos aplicables. [CONFIRMAR CON CLIENTE]: la vigencia de los precios publicados y el detalle exacto de las promociones y descuentos vigentes."
+        "body": "Los precios publicados son al contado, en soles (S/), e incluyen los impuestos peruanos aplicables. : la vigencia de los precios publicados y el detalle exacto de las promociones y descuentos vigentes."
       },
       {
         "title": "3. Simulador de cuota",
@@ -669,19 +740,19 @@
       },
       {
         "title": "4. Crédito directo",
-        "body": "[CONFIRMAR CON CLIENTE]: la inicial mínima, la tasa de interés, el plazo máximo, los criterios de evaluación crediticia, las garantías solicitadas y las consecuencias de un incumplimiento de pago. Estas condiciones no están publicadas por la inmobiliaria y deben solicitarse por escrito antes de firmar."
+        "body": ": la inicial mínima, la tasa de interés, el plazo máximo, los criterios de evaluación crediticia, las garantías solicitadas y las consecuencias de un incumplimiento de pago. Estas condiciones no están publicadas por la inmobiliaria y deben solicitarse por escrito antes de firmar."
       },
       {
         "title": "5. Entrega y titulación",
-        "body": "Los terrenos se independizan y registran en Sunarp a nombre del comprador. [CONFIRMAR CON CLIENTE]: la partida registral exacta, la fecha estimada de entrega y las etapas del proceso de titulación."
+        "body": "Los terrenos se independizan y registran en Sunarp a nombre del comprador.: la partida registral exacta, la fecha estimada de entrega y las etapas del proceso de titulación."
       },
       {
         "title": "6. Programa de referidos",
-        "body": "El programa de referidos otorga S/ 500 por cada lote comprado por una persona referida. [CONFIRMAR CON CLIENTE]: las reglas exactas de calificación del referido, el momento del pago de la recompensa y si existe un tope de referidos por persona."
+        "body": "El programa de referidos otorga S/ 500 por cada lote comprado por una persona referida. : las reglas exactas de calificación del referido, el momento del pago de la recompensa y si existe un tope de referidos por persona."
       },
       {
         "title": "7. Propiedad intelectual",
-        "body": "El contenido de este sitio (textos, imágenes, renders, videos) pertenece a Proyecta Innova Trasciende S.A.C. y no puede reproducirse sin autorización previa. [CONFIRMAR CON CLIENTE]: la autorización para el uso de imágenes de clientes en material de marketing."
+        "body": "El contenido de este sitio (textos, imágenes, renders, videos) pertenece a Proyecta Innova Trasciende S.A.C. y no puede reproducirse sin autorización previa.: la autorización para el uso de imágenes de clientes en material de marketing."
       },
       {
         "title": "8. Reclamos",
@@ -689,7 +760,7 @@
       },
       {
         "title": "9. Ley aplicable",
-        "body": "Estos términos se rigen por las leyes de la República del Perú. [CONFIRMAR CON CLIENTE]: el procedimiento y la jurisdicción exactos para la resolución de controversias."
+        "body": "Estos términos se rigen por las leyes de la República del Perú.: el procedimiento y la jurisdicción exactos para la resolución de controversias."
       }
     ]
   },
@@ -707,15 +778,15 @@
       },
       {
         "title": "2. Uso de la información",
-        "body": "Usamos tus datos para enviarte comunicaciones comerciales sobre el proyecto y sus lotes, y para atender reclamos dentro de los plazos que exige la ley. [CONFIRMAR CON CLIENTE]: si se requiere un consentimiento independiente para campañas de marketing."
+        "body": "Usamos tus datos para enviarte comunicaciones comerciales sobre el proyecto y sus lotes, y para atender reclamos dentro de los plazos que exige la ley.: si se requiere un consentimiento independiente para campañas de marketing."
       },
       {
         "title": "3. Compartición de datos con terceros",
-        "body": "No vendemos ni cedemos tus datos a terceros con fines comerciales. [CONFIRMAR CON CLIENTE]: qué proveedores (formularios, correo, publicidad) procesan datos en nombre de la inmobiliaria, y si existe transferencia de datos fuera del Perú."
+        "body": "No vendemos ni cedemos tus datos a terceros con fines comerciales.: qué proveedores (formularios, correo, publicidad) procesan datos en nombre de la inmobiliaria, y si existe transferencia de datos fuera del Perú."
       },
       {
         "title": "4. Plazo de conservación de los datos",
-        "body": "[CONFIRMAR CON CLIENTE]: el tiempo que se conservan los datos personales, en particular los registrados en el Libro de Reclamaciones según la normativa vigente."
+        "body": ": el tiempo que se conservan los datos personales, en particular los registrados en el Libro de Reclamaciones según la normativa vigente."
       },
       {
         "title": "5. Derechos del titular de los datos",
@@ -723,11 +794,11 @@
       },
       {
         "title": "6. Medidas de seguridad",
-        "body": "[CONFIRMAR CON CLIENTE]: las medidas técnicas y organizativas de protección de datos implementadas, y si el banco de datos personales está inscrito ante la autoridad correspondiente."
+        "body": ": las medidas técnicas y organizativas de protección de datos implementadas, y si el banco de datos personales está inscrito ante la autoridad correspondiente."
       },
       {
         "title": "7. Actualizaciones de esta política",
-        "body": "Esta política puede actualizarse periódicamente. [CONFIRMAR CON CLIENTE]: la fecha de la última actualización publicada."
+        "body": "Esta política puede actualizarse periódicamente.: la fecha de la última actualización publicada."
       }
     ]
   },
@@ -751,17 +822,32 @@
       "goodTitle": "2. Identificación del bien contratado",
       "goodType": "Tipo de bien contratado",
       "goodTypeOptions": [
-        { "value": "lote", "label": "Lote de terreno" },
-        { "value": "atencion", "label": "Atención comercial" },
-        { "value": "otro", "label": "Otro" }
+        {
+          "value": "lote",
+          "label": "Lote de terreno"
+        },
+        {
+          "value": "atencion",
+          "label": "Atención comercial"
+        },
+        {
+          "value": "otro",
+          "label": "Otro"
+        }
       ],
       "claimedAmount": "Monto reclamado en soles (opcional)",
       "goodDescription": "Descripción del bien o servicio",
       "detailTitle": "3. Detalle de la reclamación y pedido",
       "claimType": "Tipo de reclamación",
       "claimTypeOptions": [
-        { "value": "reclamo", "label": "Reclamo — disconformidad con el producto o servicio" },
-        { "value": "queja", "label": "Queja — disconformidad no relacionada al producto o servicio" }
+        {
+          "value": "reclamo",
+          "label": "Reclamo — disconformidad con el producto o servicio"
+        },
+        {
+          "value": "queja",
+          "label": "Queja — disconformidad no relacionada al producto o servicio"
+        }
       ],
       "detail": "Detalle de la reclamación",
       "request": "Pedido del consumidor",
@@ -813,16 +899,9 @@
     "whatsapp": "WhatsApp"
   },
   "salesManager": {
-    "name": "Luis Arias",
-    "role": "Gerente de Ventas",
-    "imageAlt": "Luis Arias, gerente de ventas de Proyecta Innova",
+    "name": "Dr. Pedro Sanchez",
+    "role": "Gerente General",
+    "imageAlt": "Dr. Pedro Sanchez, gerente general",
     "cta": "Llamar ahora"
-  },
-  "contact": {
-    "whatsappNumber": "51922199903",
-    "whatsappDisplay": "+51 922 199 903",
-    "phoneHref": "tel:+51922199903",
-    "schedule": "Lunes a sábado, 10:00 a. m. – 7:00 p. m.",
-    "address": "Av. Arequipa 1860, piso 19, Of. 1905 — Lince, Lima"
   }
 }

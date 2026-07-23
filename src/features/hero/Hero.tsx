@@ -2,6 +2,7 @@ import content from "@/shared/constants/content.json";
 import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
+import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 import LeadForm from "@/features/cotizacion/LeadForm";
 import SalesManagerCallCard from "@/features/cotizacion/SalesManagerCallCard";
 
@@ -30,6 +31,7 @@ export default function Hero() {
             {hero.titlePrefix}
             <em className="text-accent-gold not-italic">{hero.titleEmphasis}</em>
             {hero.titleSuffix}
+            <em className="text-accent-gold not-italic">{hero.titleSuffixEmphasis}</em>
           </h1>
           <p className="mt-5 max-w-xl whitespace-pre-line text-base text-text-on-dark-muted sm:text-lg">
             {hero.description}
@@ -48,16 +50,13 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <WhatsAppIcon className="h-4 w-4 shrink-0" />
               {hero.ctaPrimary}
             </a>
             <a href="#lotes" className="btn-outline-dark">
               {hero.ctaSecondary}
             </a>
           </div>
-
-          <p className="mt-4 text-xs text-text-on-dark-muted">
-            {hero.phoneDisplay} · {hero.schedule}
-          </p>
         </div>
 
         <div className="lg:sticky lg:top-24">

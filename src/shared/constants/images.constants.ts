@@ -21,7 +21,7 @@
 
 export const images = {
   isotipo: "/assets/img/logo-solo.png",
-  heroBackground: "/assets/img/hero-bosque-alto-1000.webp",
+  heroBackground: "/assets/img/hero-don-pedro-1000.webp",
   lote200: "/assets/img/lotes/lote-200m2.png",
   lote250: "/assets/img/lotes/lote-250m2.png",
   lote500: "/assets/img/lotes/lote-500m2.png",
@@ -31,7 +31,7 @@ export const images = {
   amenidadParrillas: "/assets/img/amenidad/amenidad-parrillas.png",
   amenidadCanchas: "/assets/img/amenidad/amenidad-canchas.png",
   porticoIngreso: "/assets/img/portico-ingreso.webp",
-  huertoFresas: "/assets/img/huerto/huerto-fresas.webp",
+  huertoPaltas: "/assets/img/huerto/huerto-paltas.webp",
   huertoMandarinas: "/assets/img/huerto/huerto-mandarinas.webp",
   huertoPapayas: "/assets/img/huerto/huerto-papayas.webp",
   mapaHuacho: "/assets/img/map/mapa-huacho.webp",
@@ -77,7 +77,7 @@ export const images = {
   render9: "/assets/img/carrousel3d/render9.png",
   render10: "/assets/img/carrousel3d/render10.png",
   render11: "/assets/img/carrousel3d/render11.png",
-  luisArias: "/assets/img/luis-arias.jpg",
+  pedroSanchez: "/assets/img/pedro-sanchez.png",
   /** Placeholder genérico mostrado cuando una imagen de arriba aún no existe en /public */
   fallback: "/assets/img/_placeholder.svg",
 } as const;

@@ -2,6 +2,7 @@ import content from "@/shared/constants/content.json";
 import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
+import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
 function MapPinIcon({ className }: { className?: string }) {
   return (
@@ -96,6 +97,7 @@ export default function UbicacionSection() {
 
         <div className="mt-6 flex flex-wrap gap-3">
           <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary px-5 py-2.5">
+            <WhatsAppIcon className="h-4 w-4 shrink-0" />
             {ubicacion.ctaVisit}
           </a>
           <a href={ubicacion.directionsUrl} target="_blank" rel="noopener noreferrer" className="btn-outline-light px-5 py-2.5">

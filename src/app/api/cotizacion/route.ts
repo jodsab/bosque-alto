@@ -11,7 +11,7 @@ interface LeadPayload {
 
 function buildWhatsappMessage(data: LeadPayload) {
   const lines = [
-    "Hola, quiero información sobre un lote en Bosque Alto (Huacho).",
+    "Hola, quiero información sobre un lote en La Finca de Don Pedro (Huacho).",
     `Nombre: ${data.name}`,
     `Celular: ${data.phone}`,
     `Lote de interés: ${data.lot}`,

@@ -4,6 +4,7 @@ import content from "@/shared/constants/content.json";
 import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
+import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
 export default function SiteHeader() {
   return (
@@ -18,7 +19,7 @@ export default function SiteHeader() {
             className="h-12 w-12 rounded-full"
           />
           <span className="font-display text-lg text-text-on-dark">
-            {content.brand.name} <strong className="text-accent-gold">{content.brand.suffix}</strong>
+            {content.brand.name}
           </span>
         </a>
 
@@ -40,6 +41,7 @@ export default function SiteHeader() {
           rel="noopener noreferrer"
           className="btn-primary hidden px-4 py-2 sm:inline-flex"
         >
+          <WhatsAppIcon className="h-4 w-4 shrink-0" />
           {content.nav.ctaWhatsapp}
         </a>
       </div>

@@ -2,6 +2,7 @@ import content from "@/shared/constants/content.json";
 import { images } from "@/shared/constants/images.constants";
 import { contact } from "@/shared/constants/theme.constants";
 import ImageWithFallback from "@/shared/components/ImageWithFallback";
+import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
 const DELIVERY_KEYS = ["clienteF1", "clienteF2", "clienteF3", "clienteF4", "clienteF5", "clienteF8"] as const;
 
@@ -61,6 +62,7 @@ export default function TestimoniosSection() {
             <p className="mt-1 text-sm text-text-on-dark-muted">{testimonios.referral.description}</p>
           </div>
           <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-accent shrink-0 px-5 py-2.5">
+            <WhatsAppIcon className="h-4 w-4 shrink-0" />
             {testimonios.referral.cta}
           </a>
         </div>

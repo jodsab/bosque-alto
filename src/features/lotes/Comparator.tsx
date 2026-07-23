@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import content from "@/shared/constants/content.json";
 import { contact } from "@/shared/constants/theme.constants";
+import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
 const DATA: Record<string, { price?: string; pricePerM2: string; dimensions: string }> = {
   "100 m²": { price: "S/7,500", pricePerM2: "S/ 75.00 por m²", dimensions: "10.0 × 10.0 m" },
@@ -68,6 +69,7 @@ export default function Comparator() {
         </dl>
 
         <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
+          <WhatsAppIcon className="h-4 w-4 shrink-0" />
           {comparator.ctaTemplate.replace("{size}", selected)}
         </a>
       </div>

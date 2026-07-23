@@ -4,7 +4,7 @@ import ImageWithFallback from "@/shared/components/ImageWithFallback";
 import Lightbox from "@/shared/components/Lightbox";
 
 const RENDER_KEYS: ImageKey[] = ["amenidadPiscina", "amenidadJuegos", "amenidadParrillas", "amenidadCanchas"];
-const ORCHARD_KEYS: ImageKey[] = ["huertoFresas", "huertoMandarinas", "huertoPapayas"];
+const ORCHARD_KEYS: ImageKey[] = ["huertoPaltas", "huertoMandarinas", "huertoPapayas"];
 
 /** Resalta en verde el primer número del título (p. ej. "5000" en "...más de 5000 árboles..."). */
 function highlightNumber(title: string) {
@@ -156,7 +156,7 @@ export default function AmenidadesSection() {
               <h3 className="mt-4 font-display text-2xl text-text-on-dark sm:text-3xl">
                 {highlightNumber(amenidades.orchard.title)}
               </h3>
-              <p className="mt-4 max-w-md text-sm text-text-on-dark-muted sm:text-base">
+              <p className="mt-4 text-justify max-w-md text-sm text-text-on-dark-muted sm:text-base">
                 {amenidades.orchard.description}
               </p>
             </div>

@@ -29,7 +29,7 @@ export default function SalesManagerCallCard({ className }: Props) {
     >
       <div className="flex items-center gap-3">
         <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full ring-2 ring-accent-gold/40">
-          <ImageWithFallback src={images.luisArias} alt={salesManager.imageAlt} fill className="object-cover" />
+          <ImageWithFallback src={images.pedroSanchez} alt={salesManager.imageAlt} fill className="object-cover" />
         </div>
         <div className="min-w-0">
           <p className="font-semibold text-text-on-dark">{salesManager.name}</p>
@@ -37,7 +37,7 @@ export default function SalesManagerCallCard({ className }: Props) {
         </div>
       </div>
       <a
-        href={`tel:+${contact.salesManagerPhone}`}
+        href={`tel:+${contact.whatsappNumber}`}
         className="btn-accent w-full gap-2 px-4 py-2.5 sm:ml-auto sm:w-auto"
       >
         <PhoneIcon className="h-4 w-4 shrink-0" />

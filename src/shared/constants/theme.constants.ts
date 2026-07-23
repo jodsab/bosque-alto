@@ -23,11 +23,11 @@ export const colors = {
   brandDark: "#0F1A12",
   brandDarkAlt: "#16261A",
   // Verde principal de acciones (botones WhatsApp / CTAs)
-  brandGreen: "#2F6B3C",
-  brandGreenHover: "#26582F",
-  // Dorado/tierra — acentos, precios, íconos destacados
-  accentGold: "#C9A24B",
-  accentGoldSoft: "#E4D5A7",
+  brandGreen: "#009849",
+  brandGreenHover: "#007A3A",
+  // Acento naranja — acentos, precios, íconos destacados
+  accentGold: "#FF8000",
+  accentGoldSoft: "#FFDFBF",
   // Fondo crema — secciones claras
   creamBg: "#F6F3EA",
   creamCard: "#FFFFFF",
@@ -38,7 +38,7 @@ export const colors = {
   textOnDarkMuted: "#B8C2B7",
   // Utilidad
   border: "#DEDACB",
-  success: "#2F6B3C",
+  success: "#009849",
   warningBg: "#FCEFD8",
   warningText: "#8A5A16",
   // Azul de Google — botones "Abrir mapa" (referencia visual a Google Maps)
@@ -66,8 +66,8 @@ export const shadows = {
   floatingCta: "0 -4px 20px rgba(15, 26, 18, 0.18)",
   // Sombras de color para botones CTA — deben re-calcularse manualmente si
   // brandGreen/accentGold cambian (son rgba fijos, no derivados del hex).
-  ctaPrimary: "0 10px 24px -6px rgba(47, 107, 60, 0.5)",
-  ctaAccent: "0 10px 24px -6px rgba(201, 162, 75, 0.5)",
+  ctaPrimary: "0 10px 24px -6px rgba(0, 152, 73, 0.5)",
+  ctaAccent: "0 10px 24px -6px rgba(255, 128, 0, 0.5)",
 } as const;
 
 export const spacing = {
@@ -85,13 +85,15 @@ export const breakpoints = {
   xl: "1280px",
 } as const;
 
-/** Datos de contacto reutilizados por CTAs/formularios (no es texto editorial, ver content.json para eso) */
+/**
+ * Datos de contacto reutilizados por CTAs/formularios (no es texto editorial,
+ * ver content.json para eso). Un único número de celular para todo el sitio
+ * (WhatsApp, "Llamar ahora", texto de contacto) — no debe haber otro.
+ */
 export const contact = {
-  whatsappNumber: "51922199903", // formato internacional sin '+' para enlaces wa.me
-  whatsappDisplay: "+51 922 199 903",
-  whatsappHref: "https://wa.me/51922199903",
-  // Línea directa del gerente de ventas, para el CTA "Llamar ahora"
-  salesManagerPhone: "51982810387",
+  whatsappNumber: "51982810387", // formato internacional sin '+' para enlaces wa.me / tel:
+  whatsappDisplay: "+51 982 810 387",
+  whatsappHref: "https://wa.me/51982810387",
   // Destinatario fijo del Libro de Reclamaciones (empresa + responsable, mismo correo)
   complaintsRecipientEmail: "radsance.pe@gmail.com",
 } as const;
