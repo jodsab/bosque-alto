@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Terrenos en Huacho desde S/ 7,500 | La Finca de La Finca de Don Pedro — Proyecta Innova TR",
-    "description": "Lotes de campo en Huacho desde S/ 7,500 al contado. Título de propiedad independizado, inscritos en Sunarp, crédito directo a sola firma y más de 5,000 árboles frutales. La Finca de La Finca de Don Pedro.",
+    "title": "Terrenos campestres en Huacho con inicial desde S/ 3,000 | La Finca de La Finca de Don Pedro — Proyecta Innova TR",
+    "description": "Lotes de campo en Huacho desde S/ 3,000 al contado. Título de propiedad independizado, inscritos en Sunarp, crédito directo a sola firma y más de 5,000 árboles frutales. La Finca de La Finca de Don Pedro.",
     "ogDescription": "Título de propiedad independizado e inscrito en Sunarp. Crédito directo, a sola firma. Más de 5,000 árboles frutales.",
     "themeColor": "#0F1A12"
   },
@@ -69,8 +69,8 @@
     "titlePrefix": "Tu lote ",
     "titleEmphasis": "de campo",
     "titleSuffix": " en Huacho desde S/10,000",
-    "titleSuffixEmphasis": " Entrega Noviembre 2026",
     "priceLine": "Lotes de campo en Huacho desde S/ 12,500",
+    "delivery": " Entrega Noviembre 2026",
     "description": "Compramos terrenos eriazos al estado para proyectos agropecuarios a s/2 el m2.\n\n Recibe tu lote con título de propiedad e inscrito en Sunarp. Crédito directo, a sola firma, sin banco.",
     "bullets": [
       "Te obsequiamos árboles frutales de palta y naranja",
@@ -601,14 +601,14 @@
           "label": "500 m²",
           "price": 15000,
           "financed": false,
-          "unavailableMessage": "Los lotes de 500 m² se venden al contado a S/ 15,000. — opciones de financiamiento de manera presencial o por llamada."
+          "unavailableMessage": "Los lotes de 500 m² se venden al contado a 15 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
         },
         {
           "id": "1000",
           "label": "1,000 m²",
           "price": 25000,
           "financed": false,
-          "unavailableMessage": "Los lotes de 1,000 m² se venden al contado a S/ 25,000. — opciones de financiamiento de manera presencial o por llamada."
+          "unavailableMessage": "Los lotes de 1,000 m² se venden al contado a 25 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
         }
       ]
     }
@@ -897,6 +897,13 @@
   "floatingCta": {
     "call": "Llamar",
     "whatsapp": "WhatsApp"
+  },
+  "notFound": {
+    "title": "Esta página no existe",
+    "description": "Pero tu lote en Huacho sí. Vuelve al inicio y mira los metrajes, los precios y el recorrido virtual del proyecto.",
+    "ctaHome": "Ver los lotes y sus precios",
+    "ctaWhatsapp": "Escribir por WhatsApp",
+    "whatsappMessage": "Hola Proyecta Innova, quiero información de los lotes de La Finca de Don Pedro en Huacho."
   },
   "salesManager": {
     "name": "Dr. Pedro Sanchez",

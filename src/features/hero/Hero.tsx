@@ -31,8 +31,9 @@ export default function Hero() {
             {hero.titlePrefix}
             <em className="text-accent-gold not-italic">{hero.titleEmphasis}</em>
             {hero.titleSuffix}
-            <em className="text-accent-gold not-italic">{hero.titleSuffixEmphasis}</em>
+
           </h1>
+          <p className="mt-5 max-w-xl whitespace-pre-line text-base text-text-on-dark-muted sm:text-lg">{hero.delivery}</p>
           <p className="mt-5 max-w-xl whitespace-pre-line text-base text-text-on-dark-muted sm:text-lg">
             {hero.description}
           </p>
