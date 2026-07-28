@@ -22,6 +22,7 @@ export const colors = {
   // Verde bosque oscuro — color de marca principal (header, footer, hero)
   brandDark: "#0F1A12",
   brandDarkAlt: "#16261A",
+  anoterAuxDelete: "#123456",
   // Verde principal de acciones (botones WhatsApp / CTAs)
   brandGreen: "#009849",
   brandGreenHover: "#007A3A",
