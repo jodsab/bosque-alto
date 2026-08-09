@@ -34,20 +34,11 @@ export const metadata: Metadata = {
     siteName: content.brand.fullName,
     locale: "es_PE",
     type: "website",
-    images: [
-      {
-        url: images.heroBackground,
-        width: 1200,
-        height: 630,
-        alt: content.meta.title,
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: content.meta.title,
     description: content.meta.ogDescription,
-    images: [images.heroBackground],
   },
 };
 
