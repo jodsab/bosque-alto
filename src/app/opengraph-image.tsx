@@ -15,11 +15,11 @@ export default async function OpengraphImage() {
 
   // next/og necesita una fuente explícita: su fuente por defecto se resuelve
   // por una ruta interna que falla al exportar en Windows (funciona en dev,
-  // rompe el build). Con esto evitamos depender de esa ruta.
-  // comentario para generar un nuevo commit y deploy
-  const fontData = await fetch(
-    "https://raw.githubusercontent.com/vercel/og-examples/main/public/fonts/Inter-Bold.ttf"
-  ).then((res) => res.arrayBuffer());
+  // rompe el build). Se lee del repo y no por red para que el build no
+  // dependa de una URL externa.
+  const fontData = readFileSync(
+    join(process.cwd(), "public/assets/fonts/inter-latin-700-normal.woff")
+  );
 
   return new ImageResponse(
     (
