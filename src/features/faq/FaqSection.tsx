@@ -15,7 +15,7 @@ export default function FaqSection() {
 
         <FaqAccordion />
 
-        <a href={contact.whatsappHref} data-track="faq" target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
+        <a href={contact.whatsappHref} data-track="Preguntas frecuentes" target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
           <WhatsAppIcon className="h-4 w-4 shrink-0" />
           {faq.ctaWhatsapp}
         </a>

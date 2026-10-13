@@ -24,7 +24,7 @@ export default function NotFound() {
             </Link>
             <a
               href={whatsappUrl}
-              data-track="pagina_404"
+              data-track="Página no encontrada"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-accent w-full px-5 py-2.5 sm:w-auto"

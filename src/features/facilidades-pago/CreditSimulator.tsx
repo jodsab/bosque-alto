@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import content from "@/shared/constants/content.json";
-import { trackMetaCustomEvent } from "@/shared/lib/metaPixel";
+import { trackMetaEvent } from "@/shared/lib/metaPixel";
 import { contact } from "@/shared/constants/theme.constants";
 import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
@@ -45,7 +45,7 @@ export default function CreditSimulator() {
   const markUsed = () => {
     if (usedRef.current) return;
     usedRef.current = true;
-    trackMetaCustomEvent("SimuladorCredito");
+    trackMetaEvent("SimuladorDeCredito", { origen: "Simulador de crédito" });
   };
 
   const handleLotChange = (id: string) => {
@@ -162,11 +162,11 @@ export default function CreditSimulator() {
 
           <a
             href={whatsappUrl}
-            data-track="simulador_credito"
+            data-track="Simulador de crédito"
             data-track-lote={lot.label}
-            data-track-inicial={downPayment}
-            data-track-plazo={term}
-            data-track-cuota={row?.monthly}
+            data-track-cuota_inicial={downPayment}
+            data-track-plazo_meses={term}
+            data-track-cuota_mensual={row?.monthly}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-accent mt-4 w-full px-5 py-2.5"
@@ -183,7 +183,7 @@ export default function CreditSimulator() {
 
           <a
             href={whatsappUrl}
-            data-track="simulador_sin_credito"
+            data-track="Simulador de crédito (lote sin financiamiento)"
             data-track-lote={lot.label}
             target="_blank"
             rel="noopener noreferrer"

@@ -12,6 +12,12 @@ export interface LeadFormState {
   message?: string;
 }
 
+/** Nombre legible de cada formulario para los eventos del Meta Pixel. */
+const ORIGIN_LABELS: Record<string, string> = {
+  hero: "portada",
+  "cotizacion-final": "cotización final",
+};
+
 interface UseLeadFormOptions {
   source: string;
 }
@@ -39,8 +45,10 @@ export function useLeadForm({ source }: UseLeadFormOptions) {
       }
 
       setStatus("success");
-      trackMetaEvent("Lead", { origen: source, lote: state.lot });
+      const origen = `Formulario de ${ORIGIN_LABELS[source] ?? source}`;
+      trackMetaEvent("Lead", { medio: "Formulario", origen, lote: state.lot });
       if (data.whatsappUrl) {
+        trackMetaEvent("WhatsAppDespuesDeCotizar", { origen, lote: state.lot });
         window.open(data.whatsappUrl, "_blank", "noopener,noreferrer");
       }
     } catch {

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { MetaEventParams, trackMetaEvent } from "@/shared/lib/metaPixel";
 
 /**
- * Lee los atributos data-track del enlace: data-track="hero" pasa a origen: "hero" y
+ * Lee los atributos data-track del enlace: data-track="Portada" pasa a origen: "Portada" y
  * cada data-track-xxx="valor" pasa a xxx: "valor".
  */
 function readTrackParams(link: HTMLElement): MetaEventParams {
@@ -19,7 +19,8 @@ function readTrackParams(link: HTMLElement): MetaEventParams {
 
 /**
  * Registra en el Meta Pixel los clics en enlaces de contacto: Contact para WhatsApp y
- * llamadas, FindLocation para "cómo llegar". El origen sale del atributo data-track.
+ * llamadas (el parámetro `medio` dice cuál) y FindLocation para "cómo llegar". El origen
+ * sale del atributo data-track del enlace.
  */
 export default function MetaPixelContactTracker() {
   useEffect(() => {
@@ -27,11 +28,11 @@ export default function MetaPixelContactTracker() {
       const link = (e.target as Element | null)?.closest?.<HTMLAnchorElement>("a[href]");
       if (!link) return;
       const href = link.getAttribute("href") ?? "";
-      const params = readTrackParams(link);
+      const params = { origen: "Sin identificar", ...readTrackParams(link) };
 
-      if (href.includes("wa.me/")) trackMetaEvent("Contact", { ...params, metodo: "whatsapp" });
-      else if (href.startsWith("tel:")) trackMetaEvent("Contact", { ...params, metodo: "llamada" });
-      else if (params.origen === "como_llegar") trackMetaEvent("FindLocation", params);
+      if (href.includes("wa.me/")) trackMetaEvent("Contact", { medio: "Chat WhatsApp", ...params });
+      else if (href.startsWith("tel:")) trackMetaEvent("Contact", { medio: "Llamada directa", ...params });
+      else if (href.includes("/maps")) trackMetaEvent("FindLocation", params);
     }
 
     document.addEventListener("click", onClick);

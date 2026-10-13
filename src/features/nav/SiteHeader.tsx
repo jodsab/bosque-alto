@@ -41,7 +41,7 @@ export default function SiteHeader() {
 
         <a
           href={contact.whatsappHref}
-          data-track="menu_superior"
+          data-track="Menú superior"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-primary hidden px-4 py-2 sm:inline-flex"

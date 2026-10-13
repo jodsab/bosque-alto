@@ -17,10 +17,12 @@ function PhoneIcon({ className }: { className?: string }) {
 
 interface Props {
   className?: string;
+  /** Sección donde se muestra la tarjeta; acompaña al evento de llamada en el Meta Pixel. */
+  origin: string;
 }
 
 /** Tarjeta "llamar al gerente de ventas": foto + nombre + cargo + CTA de llamada directa. */
-export default function SalesManagerCallCard({ className }: Props) {
+export default function SalesManagerCallCard({ className, origin }: Props) {
   const { salesManager } = content;
 
   return (
@@ -38,7 +40,7 @@ export default function SalesManagerCallCard({ className }: Props) {
       </div>
       <a
         href={`tel:+${contact.whatsappNumber}`}
-        data-track="gerente_ventas"
+        data-track={`Gerente de ventas (${origin})`}
         className="btn-accent w-full gap-2 px-4 py-2.5 sm:ml-auto sm:w-auto"
       >
         <PhoneIcon className="h-4 w-4 shrink-0" />

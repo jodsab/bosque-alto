@@ -23,7 +23,7 @@ export default function CotizacionFinalSection() {
             ))}
           </ul>
 
-          <SalesManagerCallCard className="mt-6" />
+          <SalesManagerCallCard className="mt-6" origin="Cotización final" />
         </div>
 
         <LeadForm

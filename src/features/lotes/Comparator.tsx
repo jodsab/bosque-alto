@@ -68,7 +68,7 @@ export default function Comparator() {
           </div>
         </dl>
 
-        <a href={contact.whatsappHref} data-track="comparador_lotes" data-track-lote={selected} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
+        <a href={contact.whatsappHref} data-track="Comparador de lotes" data-track-lote={selected} target="_blank" rel="noopener noreferrer" className="btn-primary mt-6 px-5 py-2.5">
           <WhatsAppIcon className="h-4 w-4 shrink-0" />
           {comparator.ctaTemplate.replace("{size}", selected)}
         </a>

@@ -5,7 +5,14 @@ interface Props {
   pixelId: string;
 }
 
-/** Script base del Meta Pixel (Facebook/Instagram Ads). Solo se monta si hay un pixelId configurado. */
+/**
+ * Script base del Meta Pixel (Facebook/Instagram Ads). Solo se monta si hay un pixelId configurado.
+ *
+ * - autoConfig en false apaga los eventos que Meta detecta solo (SubscribedButtonClick):
+ *   duplican a los nuestros con nombres que ventas y marketing no entienden.
+ * - No lleva el <noscript> del fragmento oficial: Next precarga esa imagen aunque haya
+ *   JavaScript y cada visita contaba dos PageView.
+ */
 export default function MetaPixel({ pixelId }: Props) {
   return (
     <>
@@ -19,21 +26,12 @@ export default function MetaPixel({ pixelId }: Props) {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('set', 'autoConfig', false, '${pixelId}');
           fbq('init', '${pixelId}');
           fbq('track', 'PageView');
         `}
       </Script>
       <MetaPixelContactTracker />
-      <noscript>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          height="1"
-          width="1"
-          alt=""
-          style={{ display: "none" }}
-          src={`https://www.facebook.com/tr?id=${pixelId}&ev=PageView&noscript=1`}
-        />
-      </noscript>
     </>
   );
 }
