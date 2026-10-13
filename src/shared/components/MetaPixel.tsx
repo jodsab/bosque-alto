@@ -1,4 +1,5 @@
 import Script from "next/script";
+import MetaPixelContactTracker from "./MetaPixelContactTracker";
 
 interface Props {
   pixelId: string;
@@ -22,6 +23,7 @@ export default function MetaPixel({ pixelId }: Props) {
           fbq('track', 'PageView');
         `}
       </Script>
+      <MetaPixelContactTracker />
       <noscript>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img

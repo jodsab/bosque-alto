@@ -96,11 +96,11 @@ export default function UbicacionSection() {
         </div>
 
         <div className="mt-6 flex flex-wrap gap-3">
-          <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary px-5 py-2.5">
+          <a href={contact.whatsappHref} data-track="ubicacion_visita" target="_blank" rel="noopener noreferrer" className="btn-primary px-5 py-2.5">
             <WhatsAppIcon className="h-4 w-4 shrink-0" />
             {ubicacion.ctaVisit}
           </a>
-          <a href={ubicacion.directionsUrl} target="_blank" rel="noopener noreferrer" className="btn-outline-light px-5 py-2.5">
+          <a href={ubicacion.directionsUrl} data-track="como_llegar" target="_blank" rel="noopener noreferrer" className="btn-outline-light px-5 py-2.5">
             {ubicacion.ctaDirections}
           </a>
         </div>

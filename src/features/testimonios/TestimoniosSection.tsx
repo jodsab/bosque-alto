@@ -61,7 +61,7 @@ export default function TestimoniosSection() {
             <h3 className="font-display text-xl text-text-on-dark">{testimonios.referral.title}</h3>
             <p className="mt-1 text-sm text-text-on-dark-muted">{testimonios.referral.description}</p>
           </div>
-          <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-accent shrink-0 px-5 py-2.5">
+          <a href={contact.whatsappHref} data-track="testimonios_referidos" target="_blank" rel="noopener noreferrer" className="btn-accent shrink-0 px-5 py-2.5">
             <WhatsAppIcon className="h-4 w-4 shrink-0" />
             {testimonios.referral.cta}
           </a>

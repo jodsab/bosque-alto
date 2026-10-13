@@ -14,12 +14,14 @@ export default function FloatingCta({ whatsappHref, phoneHref }: Props) {
       <div className="fixed inset-x-0 bottom-0 z-40 flex md:hidden">
         <a
           href={phoneHref}
+          data-track="barra_movil"
           className="flex flex-1 items-center justify-center gap-2 bg-brand-dark py-3 text-sm font-semibold text-text-on-dark"
         >
           {content.floatingCta.call}
         </a>
         <a
           href={whatsappHref}
+          data-track="barra_movil"
           target="_blank"
           rel="noopener noreferrer"
           className="flex flex-1 items-center justify-center gap-2 bg-brand-green py-3 text-sm font-semibold text-text-on-dark shadow-floating-cta"
@@ -31,6 +33,7 @@ export default function FloatingCta({ whatsappHref, phoneHref }: Props) {
 
       <a
         href={whatsappHref}
+        data-track="boton_flotante"
         target="_blank"
         rel="noopener noreferrer"
         aria-label={content.floatingCta.whatsapp}

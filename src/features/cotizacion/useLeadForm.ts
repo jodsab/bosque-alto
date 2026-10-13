@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { trackMetaEvent } from "@/shared/lib/metaPixel";
 
 export type LeadFormStatus = "idle" | "submitting" | "success" | "error";
 
@@ -38,6 +39,7 @@ export function useLeadForm({ source }: UseLeadFormOptions) {
       }
 
       setStatus("success");
+      trackMetaEvent("Lead", { origen: source, lote: state.lot });
       if (data.whatsappUrl) {
         window.open(data.whatsappUrl, "_blank", "noopener,noreferrer");
       }

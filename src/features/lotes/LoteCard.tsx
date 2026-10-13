@@ -47,7 +47,7 @@ export default function LoteCard({ item, imageKey }: LoteCardProps) {
           </p>
         )}
 
-        <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary mt-auto px-4 py-2">
+        <a href={contact.whatsappHref} data-track="tarjeta_lote" data-track-lote={item.size} target="_blank" rel="noopener noreferrer" className="btn-primary mt-auto px-4 py-2">
           <WhatsAppIcon className="h-4 w-4 shrink-0" />
           {item.cta}
         </a>

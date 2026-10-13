@@ -50,7 +50,7 @@ export default function Hero() {
           <SalesManagerCallCard className="mt-6" />
 
           <div className="mt-8 flex flex-wrap gap-3">
-            <a href={contact.whatsappHref} target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href={contact.whatsappHref} data-track="hero" target="_blank" rel="noopener noreferrer" className="btn-primary">
               <WhatsAppIcon className="h-4 w-4 shrink-0" />
               {hero.ctaPrimary}
             </a>

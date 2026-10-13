@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import content from "@/shared/constants/content.json";
+import { trackMetaCustomEvent } from "@/shared/lib/metaPixel";
 import { contact } from "@/shared/constants/theme.constants";
 import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 
@@ -39,7 +40,16 @@ export default function CreditSimulator() {
   const [downPayment, setDownPayment] = useState(lot.defaultDownPayment ?? downPaymentOptions[0] ?? 0);
   const [term, setTerm] = useState(simulator.termOptions[1] ?? simulator.termOptions[0]);
 
+  // Una sola vez por visita: avisa al Meta Pixel de que la persona usó el simulador.
+  const usedRef = useRef(false);
+  const markUsed = () => {
+    if (usedRef.current) return;
+    usedRef.current = true;
+    trackMetaCustomEvent("SimuladorCredito");
+  };
+
   const handleLotChange = (id: string) => {
+    markUsed();
     const next = lotOptions.find((o) => o.id === id) ?? defaultLot;
     setLotId(id);
     if (next.financed) {
@@ -104,7 +114,10 @@ export default function CreditSimulator() {
               max={maxDown}
               step={1000}
               value={downPayment}
-              onChange={(e) => setDownPayment(Number(e.target.value))}
+              onChange={(e) => {
+                markUsed();
+                setDownPayment(Number(e.target.value));
+              }}
               className="mt-3 w-full accent-accent-gold"
             />
           </div>
@@ -116,7 +129,10 @@ export default function CreditSimulator() {
                 <button
                   key={t}
                   type="button"
-                  onClick={() => setTerm(t)}
+                  onClick={() => {
+                    markUsed();
+                    setTerm(t);
+                  }}
                   className={`flex-1 rounded-md border px-2 py-2 text-sm font-semibold transition ${
                     term === t
                       ? "border-accent-gold bg-accent-gold text-brand-dark"
@@ -146,6 +162,11 @@ export default function CreditSimulator() {
 
           <a
             href={whatsappUrl}
+            data-track="simulador_credito"
+            data-track-lote={lot.label}
+            data-track-inicial={downPayment}
+            data-track-plazo={term}
+            data-track-cuota={row?.monthly}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-accent mt-4 w-full px-5 py-2.5"
@@ -162,6 +183,8 @@ export default function CreditSimulator() {
 
           <a
             href={whatsappUrl}
+            data-track="simulador_sin_credito"
+            data-track-lote={lot.label}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-accent mt-4 w-full px-5 py-2.5"

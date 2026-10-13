@@ -38,6 +38,7 @@ export default function SalesManagerCallCard({ className }: Props) {
       </div>
       <a
         href={`tel:+${contact.whatsappNumber}`}
+        data-track="gerente_ventas"
         className="btn-accent w-full gap-2 px-4 py-2.5 sm:ml-auto sm:w-auto"
       >
         <PhoneIcon className="h-4 w-4 shrink-0" />
