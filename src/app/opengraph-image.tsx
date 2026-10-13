@@ -9,9 +9,11 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default async function OpengraphImage() {
-  const heroPath = join(process.cwd(), "public/assets/img/hero-don-pedro-1000.webp");
+  // JPEG y no WebP: next/og no decodifica WebP y rompe el build. Va recortado
+  // a 1200x630 porque next/og ignora backgroundSize "cover" y repite la imagen.
+  const heroPath = join(process.cwd(), "public/assets/img/hero-don-pedro-og.jpg");
   const heroBase64 = readFileSync(heroPath).toString("base64");
-  const heroDataUrl = `data:image/webp;base64,${heroBase64}`;
+  const heroDataUrl = `data:image/jpeg;base64,${heroBase64}`;
 
   // next/og necesita una fuente explícita: su fuente por defecto se resuelve
   // por una ruta interna que falla al exportar en Windows (funciona en dev,
@@ -29,8 +31,7 @@ export default async function OpengraphImage() {
           height: "100%",
           display: "flex",
           backgroundImage: `url(${heroDataUrl})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundSize: "100% 100%",
         }}
       >
         <div
