@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans } from "next/font/google";
+import localFont from "next/font/local";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import content from "@/shared/constants/content.json";
@@ -8,10 +8,13 @@ import { images } from "@/shared/constants/images.constants";
 import FloatingCta from "@/features/nav/FloatingCta";
 import MetaPixel from "@/shared/components/MetaPixel";
 
-const jakarta = Plus_Jakarta_Sans({
-  subsets: ["latin"],
+// Fuente variable servida desde el repo: next/font/google la descarga en cada
+// build y hace fallar el deploy cuando Google no responde.
+const jakarta = localFont({
+  src: "./fonts/plus-jakarta-sans-latin-wght-normal.woff2",
   variable: "--font-sans",
-  weight: ["400", "600", "800"],
+  weight: "200 800",
+  display: "swap",
 });
 
 const siteUrl = process.env.SITE_URL || "https://inmobiliariaproyectainnova.com";
