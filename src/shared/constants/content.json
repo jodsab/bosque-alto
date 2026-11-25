@@ -120,20 +120,54 @@
     "description": "Compara los precios al contado y al crédito directo. Elige la cuota inicial para ver las cuotas disponibles a 12, 24 o 36 meses.",
     "renderCaption": "Render del proyecto",
     "cashPriceCaption": "Precio al contado",
-    "creditPriceCaption": "Precio al crédito",
-    "financingCaption": "Crédito directo · elige una cuota inicial",
+    "creditPriceCaption": "Precio al crédito · {term} cuotas",
+    "financingCaption": "Selecciona la cuota inicial",
     "downPaymentCaption": "Cuota inicial",
-    "balanceCaption": "Saldo",
-    "termCaption": "Cuotas mensuales",
+    "termCaption": "cuotas",
+    "termSelectionLabel": "Selecciona el plazo",
+    "monthlyPaymentCaption": "Cuota mensual",
     "items": [
       {
         "id": "lote-200",
         "size": "200 m²",
         "cashPrice": 11000,
-        "creditPrice": 13000,
         "financingOptions": [
-          { "downPayment": 3900, "balance": 9100, "installments": [{ "term": 12, "monthly": 834.17 }, { "term": 24, "monthly": 455 }, { "term": 36, "monthly": 328.61 }] },
-          { "downPayment": 6500, "balance": 6500, "installments": [{ "term": 12, "monthly": 595.83 }, { "term": 24, "monthly": 325 }, { "term": 36, "monthly": 234.72 }] }
+          {
+            "downPayment": 3900,
+            "balance": 9100,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 834.17
+              },
+              {
+                "term": 24,
+                "monthly": 455
+              },
+              {
+                "term": 36,
+                "monthly": 328.61
+              }
+            ]
+          },
+          {
+            "downPayment": 6500,
+            "balance": 6500,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 595.83
+              },
+              {
+                "term": 24,
+                "monthly": 325
+              },
+              {
+                "term": 36,
+                "monthly": 234.72
+              }
+            ]
+          }
         ],
         "dimensions": "13.4 × 13.4 m",
         "pricePerM2": "S/ 55.00 por m²",
@@ -144,10 +178,43 @@
         "id": "lote-250",
         "size": "250 m²",
         "cashPrice": 13000,
-        "creditPrice": 16000,
         "financingOptions": [
-          { "downPayment": 4800, "balance": 11200, "installments": [{ "term": 12, "monthly": 1026.67 }, { "term": 24, "monthly": 560 }, { "term": 36, "monthly": 404.44 }] },
-          { "downPayment": 8000, "balance": 8000, "installments": [{ "term": 12, "monthly": 733.33 }, { "term": 24, "monthly": 400 }, { "term": 36, "monthly": 288.89 }] }
+          {
+            "downPayment": 4800,
+            "balance": 11200,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 1026.67
+              },
+              {
+                "term": 24,
+                "monthly": 560
+              },
+              {
+                "term": 36,
+                "monthly": 404.44
+              }
+            ]
+          },
+          {
+            "downPayment": 8000,
+            "balance": 8000,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 733.33
+              },
+              {
+                "term": 24,
+                "monthly": 400
+              },
+              {
+                "term": 36,
+                "monthly": 288.89
+              }
+            ]
+          }
         ],
         "dimensions": "14.1 × 14.1 m",
         "pricePerM2": "S/ 52.00 por m²",
@@ -158,10 +225,43 @@
         "id": "lote-500",
         "size": "500 m²",
         "cashPrice": 21000,
-        "creditPrice": 27000,
         "financingOptions": [
-          { "downPayment": 6750, "balance": 20250, "installments": [{ "term": 12, "monthly": 1856.25 }, { "term": 24, "monthly": 1012.5 }, { "term": 36, "monthly": 731.25 }] },
-          { "downPayment": 13500, "balance": 13500, "installments": [{ "term": 12, "monthly": 1237.5 }, { "term": 24, "monthly": 675 }, { "term": 36, "monthly": 487.5 }] }
+          {
+            "downPayment": 6750,
+            "balance": 20250,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 1856.25
+              },
+              {
+                "term": 24,
+                "monthly": 1012.5
+              },
+              {
+                "term": 36,
+                "monthly": 731.25
+              }
+            ]
+          },
+          {
+            "downPayment": 13500,
+            "balance": 13500,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 1237.5
+              },
+              {
+                "term": 24,
+                "monthly": 675
+              },
+              {
+                "term": 36,
+                "monthly": 487.5
+              }
+            ]
+          }
         ],
         "dimensions": "15.8 × 15.8 m",
         "pricePerM2": "S/ 42.00 por m²",
@@ -172,10 +272,43 @@
         "id": "lote-1000",
         "size": "1,000 m²",
         "cashPrice": 30000,
-        "creditPrice": 36000,
         "financingOptions": [
-          { "downPayment": 9000, "balance": 27000, "installments": [{ "term": 12, "monthly": 2475 }, { "term": 24, "monthly": 1350 }, { "term": 36, "monthly": 975 }] },
-          { "downPayment": 18000, "balance": 18000, "installments": [{ "term": 12, "monthly": 1650 }, { "term": 24, "monthly": 900 }, { "term": 36, "monthly": 650 }] }
+          {
+            "downPayment": 9000,
+            "balance": 27000,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 2475
+              },
+              {
+                "term": 24,
+                "monthly": 1350
+              },
+              {
+                "term": 36,
+                "monthly": 975
+              }
+            ]
+          },
+          {
+            "downPayment": 18000,
+            "balance": 18000,
+            "installments": [
+              {
+                "term": 12,
+                "monthly": 1650
+              },
+              {
+                "term": 24,
+                "monthly": 900
+              },
+              {
+                "term": 36,
+                "monthly": 650
+              }
+            ]
+          }
         ],
         "dimensions": "31.6 × 31.6 m",
         "pricePerM2": "S/ 30.00 por m²",
@@ -470,14 +603,14 @@
       "disclaimer": "Es un recorrido sobre el render del proyecto, no una filmación del terreno.",
       "items": [
         {
-          "imageAlt": "Calle interior de la lotización de La Finca de Don Pedro, con árboles frutales a los lados",
-          "cta": "Ver en 360°",
-          "embedUrl": "https://kuula.co/share/hStlf?logo=1&info=1&fs=1&vr=0&sd=1&autorotate=0.18&thumbs=1&inst=es"
-        },
-        {
           "imageAlt": "Fotograma del recorrido 3D del proyecto La Finca de Don Pedro",
           "cta": "Ver el recorrido 3D",
           "embedUrl": "https://www.youtube.com/embed/vcYMjYiGH-M"
+        },
+        {
+          "imageAlt": "Calle interior de la lotización de La Finca de Don Pedro, con árboles frutales a los lados",
+          "cta": "Ver en 360°",
+          "embedUrl": "https://kuula.co/share/hStlf?logo=1&info=1&fs=1&vr=0&sd=1&autorotate=0.18&thumbs=1&inst=es"
         }
       ],
       "footnote": "Contenido interactivo: puedes explorarlo directamente aquí, sin salir de la web."
@@ -519,9 +652,10 @@
         36
       ],
       "monthlyLabel": "Cuota mensual estimada",
-      "duringLabel": "durante {months} meses ·",
+      "duringLabel": "durante {months} cuotas",
       "balanceLabel": "Saldo a financiar {balance}",
-      "creditPriceLabel": "Precio al crédito",
+      "creditPriceLabel": "Precio al crédito ({term} cuotas)",
+      "interestLabel": "Interés estimado",
       "disclaimer": "Cuotas y saldos según la tabla de precios publicada. La disponibilidad y las condiciones finales deben confirmarse con un asesor.",
       "cta": "Validar esta cuota con un asesor",
       "unavailableCta": "Contactar a un asesor"
@@ -613,19 +747,19 @@
   },
   "lotOptions": [
     {
-      "label": "200 m² — S/ 11,000 contado / S/ 13,000 crédito",
+      "label": "200 m² — S/ 11,000 al contado",
       "value": "200m2"
     },
     {
-      "label": "250 m² — S/ 13,000 contado / S/ 16,000 crédito",
+      "label": "250 m² — S/ 13,000 al contado",
       "value": "250m2"
     },
     {
-      "label": "500 m² — S/ 21,000 contado / S/ 27,000 crédito",
+      "label": "500 m² — S/ 21,000 al contado",
       "value": "500m2"
     },
     {
-      "label": "1,000 m² — S/ 30,000 contado / S/ 36,000 crédito",
+      "label": "1,000 m² — S/ 30,000 al contado",
       "value": "1000m2"
     },
     {

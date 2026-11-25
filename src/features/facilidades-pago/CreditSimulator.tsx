@@ -5,6 +5,7 @@ import content from "@/shared/constants/content.json";
 import { trackMetaEvent } from "@/shared/lib/metaPixel";
 import { contact } from "@/shared/constants/theme.constants";
 import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
+import { getFinancingTotals } from "@/shared/lib/financing";
 
 type LotOption = (typeof content.lotes.items)[number];
 type Term = (typeof content.facilidadesPago.simulator.termOptions)[number];
@@ -19,7 +20,7 @@ export default function CreditSimulator() {
   const [lotId, setLotId] = useState<LotOption["id"]>(lotOptions[0].id);
   const lot = lotOptions.find((option) => option.id === lotId) ?? lotOptions[0];
   const [downPayment, setDownPayment] = useState(lot.financingOptions[0].downPayment);
-  const [term, setTerm] = useState<Term>(simulator.termOptions[1] ?? simulator.termOptions[0]);
+  const [term, setTerm] = useState<Term>(simulator.termOptions[0]);
 
   const usedRef = useRef(false);
   const markUsed = () => {
@@ -37,15 +38,16 @@ export default function CreditSimulator() {
 
   const financing = lot.financingOptions.find((option) => option.downPayment === downPayment) ?? lot.financingOptions[0];
   const installment = financing.installments.find((option) => option.term === term);
+  const totals = getFinancingTotals(financing, term);
   const whatsappMessage = [
     "Hola, quiero validar esta cuota con un asesor:",
     `Lote: ${lot.size}`,
     `Precio al contado: ${fmt(lot.cashPrice)}`,
-    `Precio al crédito: ${fmt(lot.creditPrice)}`,
+    totals ? `Precio al crédito (${term} cuotas): ${fmtCents(totals.totalToPay)}` : null,
     `Cuota inicial: ${fmt(financing.downPayment)}`,
-    `Saldo: ${fmt(financing.balance)}`,
-    `Plazo: ${term} meses`,
+    `Plazo: ${term} cuotas`,
     installment ? `Cuota mensual: ${fmtCents(installment.monthly)}` : null,
+    totals ? `Interés estimado: ${fmtCents(totals.interest)}` : null,
   ]
     .filter(Boolean)
     .join("\n");
@@ -67,7 +69,7 @@ export default function CreditSimulator() {
         >
           {lotOptions.map((option) => (
             <option key={option.id} value={option.id}>
-              {option.size} — contado {fmt(option.cashPrice)} / crédito {fmt(option.creditPrice)}
+              {option.size} — {fmt(option.cashPrice)} al contado
             </option>
           ))}
         </select>
@@ -115,21 +117,19 @@ export default function CreditSimulator() {
                   : "border-white/15 text-text-on-dark hover:bg-white/10"
               }`}
             >
-              {option}
+              {option} cuotas
             </button>
           ))}
         </div>
       </div>
 
-      <div className="mt-6 grid grid-cols-2 gap-3 border-t border-white/10 pt-5 text-sm">
-        <div>
-          <p className="text-xs text-text-on-dark-muted">{simulator.creditPriceLabel}</p>
-          <p className="font-semibold text-text-on-dark">{fmt(lot.creditPrice)}</p>
-        </div>
-        <div>
-          <p className="text-xs text-text-on-dark-muted">{simulator.balanceLabel.replace("{balance}", "").trim()}</p>
-          <p className="font-semibold text-text-on-dark">{fmt(financing.balance)}</p>
-        </div>
+      <div className="mt-6 border-t border-white/10 pt-5">
+        <p className="text-xs font-semibold uppercase tracking-wide text-text-on-dark-muted">
+          {simulator.creditPriceLabel.replace("{term}", String(term))}
+        </p>
+        <p className="font-display text-3xl text-accent-gold">
+          {totals ? fmtCents(totals.totalToPay) : "—"}
+        </p>
       </div>
 
       <div className="mt-4">
@@ -140,6 +140,11 @@ export default function CreditSimulator() {
           {installment ? fmtCents(installment.monthly) : "—"}
         </p>
         <p className="mt-1 text-xs text-text-on-dark-muted">{simulator.duringLabel.replace("{months}", String(term))}</p>
+        {totals && (
+          <p className="mt-2 text-xs text-text-on-dark-muted">
+            {simulator.interestLabel}: {fmtCents(totals.interest)}
+          </p>
+        )}
       </div>
 
       <p className="mt-3 text-xs text-text-on-dark-muted">{simulator.disclaimer}</p>
@@ -151,6 +156,7 @@ export default function CreditSimulator() {
         data-track-cuota_inicial={financing.downPayment}
         data-track-plazo_meses={term}
         data-track-cuota_mensual={installment?.monthly}
+        data-track-total_credito={totals?.totalToPay}
         target="_blank"
         rel="noopener noreferrer"
         className="btn-accent mt-4 w-full px-5 py-2.5"

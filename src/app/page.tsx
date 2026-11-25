@@ -21,6 +21,7 @@ export default function HomePage() {
         <Hero />
         <Tour360Section />
         <LotesSection />
+        <CotizacionFinalSection />
         <AmenidadesSection />
         <SliderSection />
         <PlusvaliaSection />
@@ -29,7 +30,6 @@ export default function HomePage() {
         <FacilidadesPagoSection />
         <TestimoniosSection />
         <FaqSection />
-        <CotizacionFinalSection />
       </main>
       <SiteFooter />
     </>
