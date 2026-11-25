@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Terrenos campestres en Huacho con inicial desde S/ 3,000 | La Finca de La Finca de Don Pedro — Proyecta Innova TR",
-    "description": "Lotes de campo en Huacho desde S/ 3,000 al contado. Título de propiedad independizado, inscritos en Sunarp, crédito directo a sola firma y más de 5,000 árboles frutales. La Finca de La Finca de Don Pedro.",
+    "title": "Terrenos campestres en Huacho desde S/ 11,000 al contado | La Finca de Don Pedro — Proyecta Innova TR",
+    "description": "Lotes de campo en Huacho desde S/ 11,000 al contado, con opciones de crédito directo y cuotas iniciales desde S/ 3,900. Título independizado e inscrito en Sunarp.",
     "ogDescription": "Título de propiedad independizado e inscrito en Sunarp. Crédito directo, a sola firma. Más de 5,000 árboles frutales.",
     "themeColor": "#0F1A12"
   },
@@ -34,7 +34,7 @@
         "href": "#preguntas"
       }
     ],
-    "priceFrom": "Lotes desde S/ 12,500",
+    "priceFrom": "Lotes desde S/ 11,000",
     "ctaWhatsapp": "Escribir por WhatsApp",
     "mobileSteps": [
       {
@@ -68,8 +68,8 @@
     "eyebrow": "Finca La Finca de Don Pedro - Huacho",
     "titlePrefix": "Tu lote ",
     "titleEmphasis": "de campo",
-    "titleSuffix": " en Huacho desde S/10,000",
-    "priceLine": "Lotes de campo en Huacho desde S/ 12,500",
+    "titleSuffix": " en Huacho desde S/11,000",
+    "priceLine": "Lotes de campo en Huacho desde S/ 11,000",
     "delivery": " Entrega Noviembre 2026",
     "description": "Compramos terrenos eriazos al estado para proyectos agropecuarios a s/2 el m2.\n\n Recibe tu lote con título de propiedad e inscrito en Sunarp. Crédito directo, a sola firma, sin banco.",
     "bullets": [
@@ -98,7 +98,7 @@
     },
     "stats": [
       {
-        "value": "Desde S/ 25",
+        "value": "Desde S/ 30",
         "unit": "el m²",
         "label": "Tarifa más baja en lotes de 1000 m²"
       },
@@ -117,46 +117,69 @@
   "lotes": {
     "eyebrow": "Lotes disponibles",
     "title": "Elige el tamaño de tu terreno",
-    "description": "Precios al contado publicados por la inmobiliaria. Consulta la cuota del crédito directo con un asesor: se define según el lote y la inicial.",
+    "description": "Compara los precios al contado y al crédito directo. Elige la cuota inicial para ver las cuotas disponibles a 12, 24 o 36 meses.",
     "renderCaption": "Render del proyecto",
-    "priceCaption": "Precio al contado",
+    "cashPriceCaption": "Precio al contado",
+    "creditPriceCaption": "Precio al crédito",
+    "financingCaption": "Crédito directo · elige una cuota inicial",
+    "downPaymentCaption": "Cuota inicial",
+    "balanceCaption": "Saldo",
+    "termCaption": "Cuotas mensuales",
     "items": [
       {
         "id": "lote-200",
         "size": "200 m²",
-        "price": "S/10,000",
+        "cashPrice": 11000,
+        "creditPrice": 13000,
+        "financingOptions": [
+          { "downPayment": 3900, "balance": 9100, "installments": [{ "term": 12, "monthly": 834.17 }, { "term": 24, "monthly": 455 }, { "term": 36, "monthly": 328.61 }] },
+          { "downPayment": 6500, "balance": 6500, "installments": [{ "term": 12, "monthly": 595.83 }, { "term": 24, "monthly": 325 }, { "term": 36, "monthly": 234.72 }] }
+        ],
         "dimensions": "13.4 × 13.4 m",
-        "pricePerM2": "S/ 69.44 por m²",
+        "pricePerM2": "S/ 55.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
         "imageAlt": "Alameda arbolada dentro del condominio La Finca de Don Pedro"
       },
       {
         "id": "lote-250",
         "size": "250 m²",
-        "price": "S/10,000",
+        "cashPrice": 13000,
+        "creditPrice": 16000,
+        "financingOptions": [
+          { "downPayment": 4800, "balance": 11200, "installments": [{ "term": 12, "monthly": 1026.67 }, { "term": 24, "monthly": 560 }, { "term": 36, "monthly": 404.44 }] },
+          { "downPayment": 8000, "balance": 8000, "installments": [{ "term": 12, "monthly": 733.33 }, { "term": 24, "monthly": 400 }, { "term": 36, "monthly": 288.89 }] }
+        ],
         "dimensions": "14.1 × 14.1 m",
-        "pricePerM2": "S/ 75.00 por m²",
-        "cta": "Consultar el descuento",
-        "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
+        "pricePerM2": "S/ 52.00 por m²",
+        "cta": "Ver disponibilidad por WhatsApp",
         "imageAlt": "Zona de áreas verdes y camino peatonal en La Finca de Don Pedro"
       },
       {
         "id": "lote-500",
         "size": "500 m²",
-        "price": "S/15,000",
+        "cashPrice": 21000,
+        "creditPrice": 27000,
+        "financingOptions": [
+          { "downPayment": 6750, "balance": 20250, "installments": [{ "term": 12, "monthly": 1856.25 }, { "term": 24, "monthly": 1012.5 }, { "term": 36, "monthly": 731.25 }] },
+          { "downPayment": 13500, "balance": 13500, "installments": [{ "term": 12, "monthly": 1237.5 }, { "term": 24, "monthly": 675 }, { "term": 36, "monthly": 487.5 }] }
+        ],
         "dimensions": "15.8 × 15.8 m",
-        "pricePerM2": "S/ 86.00 por m²",
+        "pricePerM2": "S/ 42.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
         "imageAlt": "Vía interior del condominio con árboles frutales a los costados"
       },
       {
         "id": "lote-1000",
         "size": "1,000 m²",
-        "price": "S/25,000",
+        "cashPrice": 30000,
+        "creditPrice": 36000,
+        "financingOptions": [
+          { "downPayment": 9000, "balance": 27000, "installments": [{ "term": 12, "monthly": 2475 }, { "term": 24, "monthly": 1350 }, { "term": 36, "monthly": 975 }] },
+          { "downPayment": 18000, "balance": 18000, "installments": [{ "term": 12, "monthly": 1650 }, { "term": 24, "monthly": 900 }, { "term": 36, "monthly": 650 }] }
+        ],
         "dimensions": "31.6 × 31.6 m",
-        "pricePerM2": "S/ 75.00 por m²",
+        "pricePerM2": "S/ 30.00 por m²",
         "cta": "Ver disponibilidad por WhatsApp",
-        "badge": "Promoción especial por compra dentro de 7días o con reserva de 500 soles",
         "imageAlt": "Vista aérea del condominio La Finca de Don Pedro entre el huerto y las dunas"
       }
     ],
@@ -497,120 +520,11 @@
       ],
       "monthlyLabel": "Cuota mensual estimada",
       "duringLabel": "durante {months} meses ·",
-      "balanceLabel": "saldo a financiar {balance}",
-      "disclaimer": "Tabla de financiamiento directo de la inmobiliaria, disponible solo para lotes de 200 m². El precio total varía según la inicial y el plazo elegidos. — tu cuota real la confirma un asesor.",
+      "balanceLabel": "Saldo a financiar {balance}",
+      "creditPriceLabel": "Precio al crédito",
+      "disclaimer": "Cuotas y saldos según la tabla de precios publicada. La disponibilidad y las condiciones finales deben confirmarse con un asesor.",
       "cta": "Validar esta cuota con un asesor",
-      "unavailableCta": "Contactar a un asesor",
-      "lotOptions": [
-        {
-          "id": "200",
-          "label": "200 m²",
-          "price": 10000,
-          "financed": true,
-          "downPaymentOptions": [
-            3000,
-            4000,
-            5000,
-            6000
-          ],
-          "defaultDownPayment": 6000,
-          "financingTable": [
-            {
-              "downPayment": 6000,
-              "term": 12,
-              "total": 12600,
-              "monthly": 550.00
-            },
-            {
-              "downPayment": 6000,
-              "term": 24,
-              "total": 13200,
-              "monthly": 300.00
-            },
-            {
-              "downPayment": 6000,
-              "term": 36,
-              "total": 13800,
-              "monthly": 216.66
-            },
-            {
-              "downPayment": 5000,
-              "term": 12,
-              "total": 12700,
-              "monthly": 641.66
-            },
-            {
-              "downPayment": 5000,
-              "term": 24,
-              "total": 13400,
-              "monthly": 350.00
-            },
-            {
-              "downPayment": 5000,
-              "term": 36,
-              "total": 14100,
-              "monthly": 252.77
-            },
-            {
-              "downPayment": 4000,
-              "term": 12,
-              "total": 12800,
-              "monthly": 733.33
-            },
-            {
-              "downPayment": 4000,
-              "term": 24,
-              "total": 13600,
-              "monthly": 400.00
-            },
-            {
-              "downPayment": 4000,
-              "term": 36,
-              "total": 14400,
-              "monthly": 288.88
-            },
-            {
-              "downPayment": 3000,
-              "term": 12,
-              "total": 12900,
-              "monthly": 825.00
-            },
-            {
-              "downPayment": 3000,
-              "term": 24,
-              "total": 13800,
-              "monthly": 450.00
-            },
-            {
-              "downPayment": 3000,
-              "term": 36,
-              "total": 14700,
-              "monthly": 325.00
-            }
-          ]
-        },
-        {
-          "id": "250",
-          "label": "250 m²",
-          "price": 10000,
-          "financed": false,
-          "unavailableMessage": "Los lotes de 250 m2 se venden al contado a 10 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
-        },
-        {
-          "id": "500",
-          "label": "500 m²",
-          "price": 15000,
-          "financed": false,
-          "unavailableMessage": "Los lotes de 500 m² se venden al contado a 15 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
-        },
-        {
-          "id": "1000",
-          "label": "1,000 m²",
-          "price": 25000,
-          "financed": false,
-          "unavailableMessage": "Los lotes de 1,000 m² se venden al contado a 25 mil soles. Promoción válida solo los meses de julio y agosto. Opciones de financiamiento de manera presencial o por llamada."
-        }
-      ]
+      "unavailableCta": "Contactar a un asesor"
     }
   },
   "testimonios": {
@@ -699,15 +613,19 @@
   },
   "lotOptions": [
     {
-      "label": "250 m² — S/ 10,000",
+      "label": "200 m² — S/ 11,000 contado / S/ 13,000 crédito",
+      "value": "200m2"
+    },
+    {
+      "label": "250 m² — S/ 13,000 contado / S/ 16,000 crédito",
       "value": "250m2"
     },
     {
-      "label": "500 m² — S/ 15,000",
+      "label": "500 m² — S/ 21,000 contado / S/ 27,000 crédito",
       "value": "500m2"
     },
     {
-      "label": "1,000 m² — S/ 25,000",
+      "label": "1,000 m² — S/ 30,000 contado / S/ 36,000 crédito",
       "value": "1000m2"
     },
     {
@@ -736,7 +654,7 @@
       },
       {
         "title": "3. Simulador de cuota",
-        "body": "El simulador de crédito directo entrega un cálculo estimado y no vinculante, sin considerar intereses ni gastos administrativos, ya que la inmobiliaria no publica sus tasas. El monto real de las cuotas y las condiciones del crédito se definen caso por caso con un asesor."
+        "body": "El simulador y las tarjetas de lotes muestran las cuotas y saldos de la tabla de financiamiento publicada. La simulación es referencial y no vinculante; confirma con un asesor la disponibilidad y las condiciones finales antes de contratar."
       },
       {
         "title": "4. Crédito directo",

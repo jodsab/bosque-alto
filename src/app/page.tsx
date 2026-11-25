@@ -19,13 +19,13 @@ export default function HomePage() {
       <SiteHeader />
       <main>
         <Hero />
+        <Tour360Section />
         <LotesSection />
         <AmenidadesSection />
         <SliderSection />
         <PlusvaliaSection />
         <UbicacionSection />
         <Render3DSection />
-        <Tour360Section />
         <FacilidadesPagoSection />
         <TestimoniosSection />
         <FaqSection />

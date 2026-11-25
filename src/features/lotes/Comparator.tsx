@@ -8,9 +8,9 @@ import WhatsAppIcon from "@/shared/components/WhatsAppIcon";
 const DATA: Record<string, { price?: string; pricePerM2: string; dimensions: string }> = {
   "100 m²": { price: "S/7,500", pricePerM2: "S/ 75.00 por m²", dimensions: "10.0 × 10.0 m" },
   "180 m²": { price: "S/12,500", pricePerM2: "S/ 69.44 por m²", dimensions: "13.4 × 13.4 m" },
-  "200 m²": { price: "S/14,999", pricePerM2: "S/ 75.00 por m²", dimensions: "14.1 × 14.1 m" },
-  "250 m²": { price: "S/21,500", pricePerM2: "S/ 86.00 por m²", dimensions: "15.8 × 15.8 m" },
-  "1,000 m²": { price: "S/75,000", pricePerM2: "S/ 75.00 por m²", dimensions: "31.6 × 31.6 m" },
+  "200 m²": { price: "S/11,000", pricePerM2: "S/ 55.00 por m²", dimensions: "14.1 × 14.1 m" },
+  "250 m²": { price: "S/13,000", pricePerM2: "S/ 52.00 por m²", dimensions: "15.8 × 15.8 m" },
+  "1,000 m²": { price: "S/30,000", pricePerM2: "S/ 30.00 por m²", dimensions: "31.6 × 31.6 m" },
 };
 
 const MAX_SIDE = 31.6;

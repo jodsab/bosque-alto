@@ -96,7 +96,7 @@ export default async function OpengraphImage() {
               Tu lote de campo en Huacho
             </div>
             <div style={{ display: "flex", color: "#009849", fontSize: 40, fontWeight: 800 }}>
-              Desde S/ 3,000 al contado
+              Desde S/ 11,000 al contado
             </div>
           </div>
         </div>
